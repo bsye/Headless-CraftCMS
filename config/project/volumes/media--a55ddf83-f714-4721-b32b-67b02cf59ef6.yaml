@@ -2,6 +2,7 @@ fieldLayouts:
   030ba978-e540-4121-9546-758a710632d5:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -25,13 +27,15 @@ fieldLayouts:
             title: null
             type: craft\fieldlayoutelements\assets\AssetTitleField
             uid: 8a2f83bc-99bc-4787-afd5-56ca9ade8aa3
+            userCondition: null
             warning: null
             width: 100
         name: Contenuto
         uid: 9da66831-a781-4e12-9089-ff7e182b56e2
+        userCondition: null
 fs: media
 handle: media
-name: media
+name: Media
 sortOrder: 2
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
