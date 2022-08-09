@@ -5,12 +5,6 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            elementCondition: null
-            heading: Titolo
-            type: craft\fieldlayoutelements\Heading
-            uid: b4882925-13bf-40df-b320-72d4188ad9ae
-            userCondition: null
-          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
@@ -19,7 +13,7 @@ fieldLayouts:
             elementCondition: null
             id: null
             instructions: null
-            label: __blank__
+            label: null
             max: null
             min: null
             name: null
@@ -38,55 +32,13 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            heading: 'Colore Header'
-            type: craft\fieldlayoutelements\Heading
-            uid: 8d202547-41ef-4baf-9eeb-995afca71db4
-            userCondition: null
-          -
-            elementCondition: null
-            fieldUid: 848ac342-2bd1-4b67-91fd-e3287bd33d0e
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 3e0ae73d-f3a1-4b41-9292-739e691b318f
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            heading: Descrizione
-            type: craft\fieldlayoutelements\Heading
-            uid: c880c7a8-ada4-4558-8508-d09ce3fb8fdf
-            userCondition: null
-          -
-            elementCondition: null
             fieldUid: b706aa18-49d5-486f-8f47-3817e3cdedac # Text content
             instructions: null
-            label: null
+            label: Descrizione
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: e00721fb-4bfb-4866-bde8-39cd6a92842f
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            heading: Immagine
-            type: craft\fieldlayoutelements\Heading
-            uid: 02e06106-d478-468f-bae6-0d80fe8930a9
-            userCondition: null
-          -
-            elementCondition: null
-            fieldUid: 6f41b439-cb99-4e0f-8149-758e632633a1 # Background Image
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 8dad725b-0018-46f5-ad67-7efef9f8056a
             userCondition: null
             warning: null
             width: 100

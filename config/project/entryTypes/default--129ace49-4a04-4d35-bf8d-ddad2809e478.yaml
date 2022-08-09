@@ -5,12 +5,6 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            elementCondition: null
-            heading: Titolo
-            type: craft\fieldlayoutelements\Heading
-            uid: 36f70a6a-54ff-4e1e-9db0-9444bd2441ae
-            userCondition: null
-          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
@@ -19,7 +13,7 @@ fieldLayouts:
             elementCondition: null
             id: null
             instructions: null
-            label: __blank__
+            label: null
             max: null
             min: null
             name: null
@@ -38,33 +32,9 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            heading: 'Aggiungere spaziatura dall''alto'
-            type: craft\fieldlayoutelements\Heading
-            uid: 647cd60c-2b20-4db5-859c-06af18d3d416
-            userCondition: null
-          -
-            elementCondition: null
-            fieldUid: c84395fa-0c68-480d-9b9a-64d902665806 # Aggiungere spaziatura dall'alto
-            instructions: null
-            label: __blank__
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 1b2315da-0c11-45f5-941f-caaa0d0f832a
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            heading: 'Nascondi titolo della pagina'
-            type: craft\fieldlayoutelements\Heading
-            uid: 5bc42233-2a2d-4e25-98f5-e3cc2e092546
-            userCondition: null
-          -
-            elementCondition: null
             fieldUid: 7751639b-9673-4569-912d-214b3c47ed13 # Nascondi il titolo della pagina
             instructions: null
-            label: __blank__
+            label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -74,51 +44,9 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            heading: 'Colore dell''header'
-            type: craft\fieldlayoutelements\Heading
-            uid: efa25f42-b21a-45c0-8f85-f7aa836b243d
-            userCondition: null
-          -
-            elementCondition: null
-            fieldUid: 848ac342-2bd1-4b67-91fd-e3287bd33d0e
-            instructions: null
-            label: __blank__
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: e0bf4f25-8313-40e9-804a-907e2478a3ef
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            heading: 'Colore di sfondo della pagina'
-            type: craft\fieldlayoutelements\Heading
-            uid: 892aa0c3-d8a2-42f5-8379-3b47e52788a7
-            userCondition: null
-          -
-            elementCondition: null
-            fieldUid: bb6a5f43-5774-4c2a-916b-74169652fd12 # Colore di background
-            instructions: null
-            label: __blank__
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: b60dcbf6-9eba-4ebd-994a-f3b1ce8f762c
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            heading: 'Immagine di anteprima'
-            type: craft\fieldlayoutelements\Heading
-            uid: 463c6c85-729c-4a89-bc71-22e42cc479db
-            userCondition: null
-          -
-            elementCondition: null
             fieldUid: 1527f785-ba6f-4398-9ee1-b04be3fb7312 # Image
             instructions: null
-            label: __blank__
+            label: 'Immagine di anteprima'
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -128,33 +56,9 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            heading: 'Immagine di copertina'
-            type: craft\fieldlayoutelements\Heading
-            uid: 1aefe35b-f05c-4e22-9ac4-3103142615a1
-            userCondition: null
-          -
-            elementCondition: null
-            fieldUid: 6f41b439-cb99-4e0f-8149-758e632633a1 # Background Image
-            instructions: null
-            label: __blank__
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 61572218-f8e9-47c5-a89a-2865653ce448
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            heading: Contenuto
-            type: craft\fieldlayoutelements\Heading
-            uid: e4872439-d8df-43d1-ba10-e671e44f2c22
-            userCondition: null
-          -
-            elementCondition: null
             fieldUid: c3be3a6e-94d3-47a6-a914-53bfffed5d81 # Content Manager
             instructions: null
-            label: __blank__
+            label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField

@@ -5,12 +5,6 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            elementCondition: null
-            heading: Titolo
-            type: craft\fieldlayoutelements\Heading
-            uid: 0293ad7a-e3eb-4cb4-8205-07ce0648c25e
-            userCondition: null
-          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
@@ -19,7 +13,7 @@ fieldLayouts:
             elementCondition: null
             id: null
             instructions: null
-            label: __blank__
+            label: null
             max: null
             min: null
             name: null
@@ -38,15 +32,9 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            heading: 'Nascondi titolo della pagina'
-            type: craft\fieldlayoutelements\Heading
-            uid: 71f3a359-c832-4ba7-8a2e-1504bb63d0ff
-            userCondition: null
-          -
-            elementCondition: null
             fieldUid: 7751639b-9673-4569-912d-214b3c47ed13 # Nascondi il titolo della pagina
             instructions: null
-            label: 'Nascondi titolo'
+            label: 'Nascondi titolo della pagina'
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -56,51 +44,9 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            heading: 'Colore dell''header'
-            type: craft\fieldlayoutelements\Heading
-            uid: 3de255ef-f4a5-4d0e-ae0b-ebde66118b0b
-            userCondition: null
-          -
-            elementCondition: null
-            fieldUid: 848ac342-2bd1-4b67-91fd-e3287bd33d0e
-            instructions: null
-            label: __blank__
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 4f9eaf99-d7e8-4460-8574-c2541c5a3e6a
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            heading: 'Colore di sfondo della pagina'
-            type: craft\fieldlayoutelements\Heading
-            uid: 1943bd0b-33a6-4bf8-8ff0-2bc92f850ee9
-            userCondition: null
-          -
-            elementCondition: null
-            fieldUid: bb6a5f43-5774-4c2a-916b-74169652fd12 # Colore di background
-            instructions: null
-            label: __blank__
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 1b326368-e0e8-43c5-b4d5-1ed33502a3c5
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            heading: 'Immagine di anteprima'
-            type: craft\fieldlayoutelements\Heading
-            uid: 47d5b59d-d711-46c1-afea-fbd11d39b04e
-            userCondition: null
-          -
-            elementCondition: null
             fieldUid: 1527f785-ba6f-4398-9ee1-b04be3fb7312 # Image
             instructions: null
-            label: __blank__
+            label: 'Immagine di anteprima'
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -110,15 +56,9 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            heading: Contenuto
-            type: craft\fieldlayoutelements\Heading
-            uid: cf152484-303a-486a-ba65-d9e2b54ad59c
-            userCondition: null
-          -
-            elementCondition: null
             fieldUid: c3be3a6e-94d3-47a6-a914-53bfffed5d81 # Content Manager
             instructions: null
-            label: __blank__
+            label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
