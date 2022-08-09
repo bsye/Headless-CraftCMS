@@ -1,4 +1,4 @@
-dateModified: 1660054056
+dateModified: 1660054219
 elementSources:
   craft\elements\Entry:
     -
@@ -82,10 +82,8 @@ meta:
     7ef3b99d-c202-4d05-8817-3ef44df87b9f: 'Allineamento Orizzontale' # Allineamento Orizzontale
     08c96971-ae40-49f6-bcb3-285abbf0a86e: 'Campi relazionali' # Campi relazionali
     8e18f6d0-0fd3-4383-b457-6e7450d2fd58: Facebook # Facebook
-    9d722805-ba4f-49fb-93b0-b3f488f9a540: Email # Email
     9f02621a-3aa7-4964-9432-3c2a12ebb8e4: Spacer # Spacer
     15db7523-77fd-4128-95ec-2466cb17ecd0: 'Schema preview' # Schema preview
-    16b5b97b-5a3e-4bdf-8c56-205cc86fbe37: 'File Download' # File Download
     19ae9f94-9a82-4fa9-a474-501a0ec6c885: 'Menu di navigazione' # Menu di navigazione
     31a4ed37-b584-4751-b0b5-b3e53e0c5603: Video # Video
     34e710f6-90da-4fba-bc98-c2cc88ee496b: text # text
@@ -108,7 +106,6 @@ meta:
     321ea2f9-b424-4624-96b5-b9ff73a00a12: 'SEO info' # SEO info
     0336f2f0-e28d-445a-9c61-d7c55691bdf4: 'Spacer Mobile' # Spacer Mobile
     438f0b6e-6006-4026-93ab-4fffd2f8344c: 'Website IT' # Website IT
-    509ce47a-b6cb-45bd-a4ec-16531d601939: Telefono # Telefono
     568b030e-c6e9-4f23-aa43-b6dfd97b2914: 'Campo condizionale' # Campo condizionale
     570b9270-9f25-4825-a429-3e0e67cc0b15: Bottone # Bottone
     0813e0c4-1715-4745-abf9-f0a5cef29bfc: 'Opzioni Video' # Opzioni Video
@@ -127,7 +124,6 @@ meta:
     27966bfd-ae9e-41c7-b5a1-30f85515eb67: 'Contenuto Testo' # Contenuto Testo
     58214e02-1bee-4655-8760-28aaa4ebbd27: Embed # Embed
     68216db3-2750-491c-bddc-06157fb991fe: 'Categoria news' # Categoria news
-    0329191f-168d-40f8-9ce3-4195800e13de: Url # Url
     410016ad-5715-4c4b-b877-d5cf1d04dcb0: 'Lista News' # Lista News
     962110f8-a6a9-427d-b9b4-096961d93314: 'Plain Title' # Plain Title
     987296f1-ee9e-4410-9918-1dac409cef28: Hero # Hero
@@ -163,7 +159,6 @@ meta:
     c97d6f1a-2cbc-449b-81d6-215aafe99f6c: 'Footer 1' # Footer 1
     c135abde-0e56-47f4-a862-f21493c626cf: 'Numero di elementi' # Numero di elementi
     c324b3de-7eb4-4942-9ca3-241f370efd2b: 'Colore di sfondo' # Colore di sfondo
-    c84395fa-0c68-480d-9b9a-64d902665806: 'Aggiungere spaziatura dall''alto' # Aggiungere spaziatura dall'alto
     c802962d-85e4-4c35-b79f-4c28fca1cbbd: Instagram # Instagram
     ca4f0220-128a-4382-b21d-35fabd9d01bf: Pulsante # Pulsante
     ca924c9a-2a3b-4659-8159-8c68eb20d053: Avatars # Avatars
