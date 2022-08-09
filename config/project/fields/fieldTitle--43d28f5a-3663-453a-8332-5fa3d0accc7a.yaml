@@ -1,0 +1,27 @@
+columnSuffix: mvsbgsmo
+contentColumnType: text
+fieldGroup: 852db3e5-fe6a-4193-a94e-9fc2f6138ccc # Campi di base
+handle: fieldTitle
+instructions: null
+name: Title
+searchable: true
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: Title.json
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

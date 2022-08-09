@@ -1,0 +1,28 @@
+childBlocks: null
+description: ''
+field: 1243147e-fe16-4f7b-b259-3fc728ef1ba3 # Social
+fieldLayouts:
+  97b1458e-0421-410e-8188-ae7c5f489cff:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 6d816f8a-85a4-42a4-873d-091a271a7505 # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: abcbb949-2e25-47f6-b9e1-3609c765af9b
+            warning: null
+            width: 100
+        name: Instagram
+        uid: e4abba94-9b5e-415e-aebd-ea445b01b4e8
+group: null
+handle: instagram
+maxBlocks: 1
+maxChildBlocks: 0
+maxSiblingBlocks: 1
+name: Instagram
+sortOrder: 2
+topLevel: true

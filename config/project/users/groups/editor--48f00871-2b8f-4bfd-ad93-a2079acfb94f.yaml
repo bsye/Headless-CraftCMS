@@ -1,0 +1,182 @@
+description: ''
+handle: editor
+name: Editor
+permissions:
+  - accesscp
+  - accesscpwhensystemisoff
+  - accessplugin-navigation
+  - accessplugin-seo
+  - accesssitewhensystemisoff
+  - 'assignusergroup:48f00871-2b8f-4bfd-ad93-a2079acfb94f' # Editor
+  - 'createentries:30a62a78-6603-47b1-8a8f-ef15d17583cb'
+  - 'createentries:30dff06d-37f1-45c0-ad75-a874bc53bcb2'
+  - 'createentries:3ffaf07c-d071-4499-b470-d79daa0c7aae' # News
+  - 'createentries:41ec9a6d-a47c-44fb-a68b-5c7e0c5fa890'
+  - 'createentries:4e2d0193-f0b1-432a-a526-201702d64085'
+  - 'createentries:579e50db-262c-400f-93bc-58c624f65f11'
+  - 'createentries:8819872b-fa81-4b02-9f91-1e6aa8cb1512' # Pagine
+  - 'createentries:f05cb49b-97ee-4fd8-bbf8-b6448c3f1c07'
+  - 'createfolders:a55ddf83-f714-4721-b32b-67b02cf59ef6' # media
+  - 'deleteassets:a55ddf83-f714-4721-b32b-67b02cf59ef6' # media
+  - 'deletecategories:049cef1a-e59d-4bde-8848-a2e7435a8d12'
+  - 'deletecategories:d919c168-e7df-4a1f-92d4-c8d9e90c2dbe'
+  - 'deletecategories:dbdd30bb-96dd-4cba-89bb-d8d3c4f86acf'
+  - 'deleteentries:30a62a78-6603-47b1-8a8f-ef15d17583cb'
+  - 'deleteentries:30dff06d-37f1-45c0-ad75-a874bc53bcb2'
+  - 'deleteentries:3ffaf07c-d071-4499-b470-d79daa0c7aae' # News
+  - 'deleteentries:41ec9a6d-a47c-44fb-a68b-5c7e0c5fa890'
+  - 'deleteentries:4e2d0193-f0b1-432a-a526-201702d64085'
+  - 'deleteentries:579e50db-262c-400f-93bc-58c624f65f11'
+  - 'deleteentries:8819872b-fa81-4b02-9f91-1e6aa8cb1512' # Pagine
+  - 'deleteentries:f05cb49b-97ee-4fd8-bbf8-b6448c3f1c07'
+  - 'deletepeerassets:a55ddf83-f714-4721-b32b-67b02cf59ef6' # media
+  - 'deletepeercategorydrafts:049cef1a-e59d-4bde-8848-a2e7435a8d12'
+  - 'deletepeercategorydrafts:d919c168-e7df-4a1f-92d4-c8d9e90c2dbe'
+  - 'deletepeercategorydrafts:dbdd30bb-96dd-4cba-89bb-d8d3c4f86acf'
+  - 'deletepeerentries:30a62a78-6603-47b1-8a8f-ef15d17583cb'
+  - 'deletepeerentries:30dff06d-37f1-45c0-ad75-a874bc53bcb2'
+  - 'deletepeerentries:3ffaf07c-d071-4499-b470-d79daa0c7aae' # News
+  - 'deletepeerentries:41ec9a6d-a47c-44fb-a68b-5c7e0c5fa890'
+  - 'deletepeerentries:4e2d0193-f0b1-432a-a526-201702d64085'
+  - 'deletepeerentries:579e50db-262c-400f-93bc-58c624f65f11'
+  - 'deletepeerentries:8819872b-fa81-4b02-9f91-1e6aa8cb1512' # Pagine
+  - 'deletepeerentries:f05cb49b-97ee-4fd8-bbf8-b6448c3f1c07'
+  - 'deletepeerentrydrafts:166c0a54-8df1-400d-b64d-10f081b54ff6'
+  - 'deletepeerentrydrafts:1883fea6-975a-407a-8d63-9f8c99aa2f12' # Archivio News
+  - 'deletepeerentrydrafts:30a62a78-6603-47b1-8a8f-ef15d17583cb'
+  - 'deletepeerentrydrafts:30dff06d-37f1-45c0-ad75-a874bc53bcb2'
+  - 'deletepeerentrydrafts:3ffaf07c-d071-4499-b470-d79daa0c7aae' # News
+  - 'deletepeerentrydrafts:41ec9a6d-a47c-44fb-a68b-5c7e0c5fa890'
+  - 'deletepeerentrydrafts:4e2d0193-f0b1-432a-a526-201702d64085'
+  - 'deletepeerentrydrafts:579e50db-262c-400f-93bc-58c624f65f11'
+  - 'deletepeerentrydrafts:720fd744-daa3-49d1-8159-9a50b9d16375'
+  - 'deletepeerentrydrafts:7ed99a8c-d1da-4403-8fe6-d7970a591477' # Home Page
+  - 'deletepeerentrydrafts:8203675b-ef84-43f2-b62e-199b5ca35f77'
+  - 'deletepeerentrydrafts:8819872b-fa81-4b02-9f91-1e6aa8cb1512' # Pagine
+  - 'deletepeerentrydrafts:a24001b9-d659-4b6e-a072-3cef0e5903a0'
+  - 'deletepeerentrydrafts:de03f742-c542-4ebb-94de-0d748df14ba1'
+  - 'deletepeerentrydrafts:f05cb49b-97ee-4fd8-bbf8-b6448c3f1c07'
+  - 'deletepeerentrydrafts:fefaba40-38ef-4230-82f5-90f2346e2441'
+  - deleteusers
+  - 'editglobalset:5b131fca-5cfb-4f35-bb4c-9b467d658386' # Socials
+  - 'editglobalset:6ed7b8ac-4d2d-48fc-bf49-e63fb9703ecf' # Footer 4
+  - 'editglobalset:7dcd5dd4-f91a-4a3d-b45e-26f2c9d57885' # Informazioni SEO
+  - 'editglobalset:c5f24fff-622e-4116-b6c1-ba0c7235a8e6'
+  - 'editglobalset:c97d6f1a-2cbc-449b-81d6-215aafe99f6c' # Footer 1
+  - 'editglobalset:d6bdd481-7959-416a-a3ed-dec453773a89' # Footer 3
+  - 'editglobalset:f9d91014-3ce9-4bf6-9ff8-e6e2a5ee3627' # Footer 2
+  - 'editimages:a55ddf83-f714-4721-b32b-67b02cf59ef6' # media
+  - 'editpeerimages:a55ddf83-f714-4721-b32b-67b02cf59ef6' # media
+  - 'editsite:438f0b6e-6006-4026-93ab-4fffd2f8344c' # Website IT
+  - 'editsite:d68686b0-bb31-46a3-8849-d7e61ee184c8'
+  - editusers
+  - manageredirects
+  - managesitemap
+  - moderateusers
+  - 'navigation-editnav:2adb9439-35bf-472c-ae48-a844bf8f5af3' # Menu Main Desktop
+  - 'navigation-editnav:6550953d-66f3-4713-af6f-dbda8538a9f5'
+  - 'navigation-editnav:b63e9bf6-8b6a-44be-ab8f-c4ae09025077'
+  - 'navigation-editnav:ee8b0c18-3c9d-4842-b80f-bf1819717122' # Menu Overlay Mobile
+  - 'navigation-managenav:2adb9439-35bf-472c-ae48-a844bf8f5af3' # Menu Main Desktop
+  - 'navigation-managenav:6550953d-66f3-4713-af6f-dbda8538a9f5'
+  - 'navigation-managenav:b63e9bf6-8b6a-44be-ab8f-c4ae09025077'
+  - 'navigation-managenav:ee8b0c18-3c9d-4842-b80f-bf1819717122' # Menu Overlay Mobile
+  - registerusers
+  - 'replacefiles:a55ddf83-f714-4721-b32b-67b02cf59ef6' # media
+  - 'replacepeerfiles:a55ddf83-f714-4721-b32b-67b02cf59ef6' # media
+  - 'saveassets:a55ddf83-f714-4721-b32b-67b02cf59ef6' # media
+  - 'savecategories:049cef1a-e59d-4bde-8848-a2e7435a8d12'
+  - 'savecategories:d919c168-e7df-4a1f-92d4-c8d9e90c2dbe'
+  - 'savecategories:dbdd30bb-96dd-4cba-89bb-d8d3c4f86acf'
+  - 'saveentries:166c0a54-8df1-400d-b64d-10f081b54ff6'
+  - 'saveentries:1883fea6-975a-407a-8d63-9f8c99aa2f12' # Archivio News
+  - 'saveentries:30a62a78-6603-47b1-8a8f-ef15d17583cb'
+  - 'saveentries:30dff06d-37f1-45c0-ad75-a874bc53bcb2'
+  - 'saveentries:3ffaf07c-d071-4499-b470-d79daa0c7aae' # News
+  - 'saveentries:41ec9a6d-a47c-44fb-a68b-5c7e0c5fa890'
+  - 'saveentries:4e2d0193-f0b1-432a-a526-201702d64085'
+  - 'saveentries:579e50db-262c-400f-93bc-58c624f65f11'
+  - 'saveentries:720fd744-daa3-49d1-8159-9a50b9d16375'
+  - 'saveentries:7ed99a8c-d1da-4403-8fe6-d7970a591477' # Home Page
+  - 'saveentries:8203675b-ef84-43f2-b62e-199b5ca35f77'
+  - 'saveentries:8819872b-fa81-4b02-9f91-1e6aa8cb1512' # Pagine
+  - 'saveentries:a24001b9-d659-4b6e-a072-3cef0e5903a0'
+  - 'saveentries:de03f742-c542-4ebb-94de-0d748df14ba1'
+  - 'saveentries:f05cb49b-97ee-4fd8-bbf8-b6448c3f1c07'
+  - 'saveentries:fefaba40-38ef-4230-82f5-90f2346e2441'
+  - 'savepeerassets:a55ddf83-f714-4721-b32b-67b02cf59ef6' # media
+  - 'savepeercategorydrafts:049cef1a-e59d-4bde-8848-a2e7435a8d12'
+  - 'savepeercategorydrafts:d919c168-e7df-4a1f-92d4-c8d9e90c2dbe'
+  - 'savepeercategorydrafts:dbdd30bb-96dd-4cba-89bb-d8d3c4f86acf'
+  - 'savepeerentries:30a62a78-6603-47b1-8a8f-ef15d17583cb'
+  - 'savepeerentries:30dff06d-37f1-45c0-ad75-a874bc53bcb2'
+  - 'savepeerentries:3ffaf07c-d071-4499-b470-d79daa0c7aae' # News
+  - 'savepeerentries:41ec9a6d-a47c-44fb-a68b-5c7e0c5fa890'
+  - 'savepeerentries:4e2d0193-f0b1-432a-a526-201702d64085'
+  - 'savepeerentries:579e50db-262c-400f-93bc-58c624f65f11'
+  - 'savepeerentries:8819872b-fa81-4b02-9f91-1e6aa8cb1512' # Pagine
+  - 'savepeerentries:f05cb49b-97ee-4fd8-bbf8-b6448c3f1c07'
+  - 'savepeerentrydrafts:166c0a54-8df1-400d-b64d-10f081b54ff6'
+  - 'savepeerentrydrafts:1883fea6-975a-407a-8d63-9f8c99aa2f12' # Archivio News
+  - 'savepeerentrydrafts:30a62a78-6603-47b1-8a8f-ef15d17583cb'
+  - 'savepeerentrydrafts:30dff06d-37f1-45c0-ad75-a874bc53bcb2'
+  - 'savepeerentrydrafts:3ffaf07c-d071-4499-b470-d79daa0c7aae' # News
+  - 'savepeerentrydrafts:41ec9a6d-a47c-44fb-a68b-5c7e0c5fa890'
+  - 'savepeerentrydrafts:4e2d0193-f0b1-432a-a526-201702d64085'
+  - 'savepeerentrydrafts:579e50db-262c-400f-93bc-58c624f65f11'
+  - 'savepeerentrydrafts:720fd744-daa3-49d1-8159-9a50b9d16375'
+  - 'savepeerentrydrafts:7ed99a8c-d1da-4403-8fe6-d7970a591477' # Home Page
+  - 'savepeerentrydrafts:8203675b-ef84-43f2-b62e-199b5ca35f77'
+  - 'savepeerentrydrafts:8819872b-fa81-4b02-9f91-1e6aa8cb1512' # Pagine
+  - 'savepeerentrydrafts:a24001b9-d659-4b6e-a072-3cef0e5903a0'
+  - 'savepeerentrydrafts:de03f742-c542-4ebb-94de-0d748df14ba1'
+  - 'savepeerentrydrafts:f05cb49b-97ee-4fd8-bbf8-b6448c3f1c07'
+  - 'savepeerentrydrafts:fefaba40-38ef-4230-82f5-90f2346e2441'
+  - 'viewassets:a55ddf83-f714-4721-b32b-67b02cf59ef6' # media
+  - 'viewcategories:049cef1a-e59d-4bde-8848-a2e7435a8d12'
+  - 'viewcategories:d919c168-e7df-4a1f-92d4-c8d9e90c2dbe'
+  - 'viewcategories:dbdd30bb-96dd-4cba-89bb-d8d3c4f86acf'
+  - 'viewentries:166c0a54-8df1-400d-b64d-10f081b54ff6'
+  - 'viewentries:1883fea6-975a-407a-8d63-9f8c99aa2f12' # Archivio News
+  - 'viewentries:30a62a78-6603-47b1-8a8f-ef15d17583cb'
+  - 'viewentries:30dff06d-37f1-45c0-ad75-a874bc53bcb2'
+  - 'viewentries:3ffaf07c-d071-4499-b470-d79daa0c7aae' # News
+  - 'viewentries:41ec9a6d-a47c-44fb-a68b-5c7e0c5fa890'
+  - 'viewentries:4e2d0193-f0b1-432a-a526-201702d64085'
+  - 'viewentries:579e50db-262c-400f-93bc-58c624f65f11'
+  - 'viewentries:720fd744-daa3-49d1-8159-9a50b9d16375'
+  - 'viewentries:7ed99a8c-d1da-4403-8fe6-d7970a591477' # Home Page
+  - 'viewentries:8203675b-ef84-43f2-b62e-199b5ca35f77'
+  - 'viewentries:8819872b-fa81-4b02-9f91-1e6aa8cb1512' # Pagine
+  - 'viewentries:a24001b9-d659-4b6e-a072-3cef0e5903a0'
+  - 'viewentries:de03f742-c542-4ebb-94de-0d748df14ba1'
+  - 'viewentries:f05cb49b-97ee-4fd8-bbf8-b6448c3f1c07'
+  - 'viewentries:fefaba40-38ef-4230-82f5-90f2346e2441'
+  - 'viewpeerassets:a55ddf83-f714-4721-b32b-67b02cf59ef6' # media
+  - 'viewpeercategorydrafts:049cef1a-e59d-4bde-8848-a2e7435a8d12'
+  - 'viewpeercategorydrafts:d919c168-e7df-4a1f-92d4-c8d9e90c2dbe'
+  - 'viewpeercategorydrafts:dbdd30bb-96dd-4cba-89bb-d8d3c4f86acf'
+  - 'viewpeerentries:30a62a78-6603-47b1-8a8f-ef15d17583cb'
+  - 'viewpeerentries:30dff06d-37f1-45c0-ad75-a874bc53bcb2'
+  - 'viewpeerentries:3ffaf07c-d071-4499-b470-d79daa0c7aae' # News
+  - 'viewpeerentries:41ec9a6d-a47c-44fb-a68b-5c7e0c5fa890'
+  - 'viewpeerentries:4e2d0193-f0b1-432a-a526-201702d64085'
+  - 'viewpeerentries:579e50db-262c-400f-93bc-58c624f65f11'
+  - 'viewpeerentries:8819872b-fa81-4b02-9f91-1e6aa8cb1512' # Pagine
+  - 'viewpeerentries:f05cb49b-97ee-4fd8-bbf8-b6448c3f1c07'
+  - 'viewpeerentrydrafts:166c0a54-8df1-400d-b64d-10f081b54ff6'
+  - 'viewpeerentrydrafts:1883fea6-975a-407a-8d63-9f8c99aa2f12' # Archivio News
+  - 'viewpeerentrydrafts:30a62a78-6603-47b1-8a8f-ef15d17583cb'
+  - 'viewpeerentrydrafts:30dff06d-37f1-45c0-ad75-a874bc53bcb2'
+  - 'viewpeerentrydrafts:3ffaf07c-d071-4499-b470-d79daa0c7aae' # News
+  - 'viewpeerentrydrafts:41ec9a6d-a47c-44fb-a68b-5c7e0c5fa890'
+  - 'viewpeerentrydrafts:4e2d0193-f0b1-432a-a526-201702d64085'
+  - 'viewpeerentrydrafts:579e50db-262c-400f-93bc-58c624f65f11'
+  - 'viewpeerentrydrafts:720fd744-daa3-49d1-8159-9a50b9d16375'
+  - 'viewpeerentrydrafts:7ed99a8c-d1da-4403-8fe6-d7970a591477' # Home Page
+  - 'viewpeerentrydrafts:8203675b-ef84-43f2-b62e-199b5ca35f77'
+  - 'viewpeerentrydrafts:8819872b-fa81-4b02-9f91-1e6aa8cb1512' # Pagine
+  - 'viewpeerentrydrafts:a24001b9-d659-4b6e-a072-3cef0e5903a0'
+  - 'viewpeerentrydrafts:de03f742-c542-4ebb-94de-0d748df14ba1'
+  - 'viewpeerentrydrafts:f05cb49b-97ee-4fd8-bbf8-b6448c3f1c07'
+  - 'viewpeerentrydrafts:fefaba40-38ef-4230-82f5-90f2346e2441'

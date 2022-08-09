@@ -1,0 +1,19 @@
+columnSuffix: aepqtxzo
+contentColumnType: text
+fieldGroup: 1ebc4402-0ecd-49b3-9322-f571be50d5da # Campi PIM
+handle: BC_id
+instructions: null
+name: BC_id
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: true
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

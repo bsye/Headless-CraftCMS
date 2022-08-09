@@ -1,0 +1,44 @@
+childBlocks: null
+description: ''
+field: c3be3a6e-94d3-47a6-a914-53bfffed5d81 # Content Manager
+fieldLayouts:
+  b055baad-6d0c-4165-aa3f-3dce95ec803e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 1527f785-ba6f-4398-9ee1-b04be3fb7312 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7d384d63-ef93-4826-a50a-7c0643d7ce15
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: a524c41b-7dd0-4c3d-ad1d-080e9b06f106 # Larghezza immagine
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 28fbfe86-2410-49d4-9c77-3fb809d3b6da
+            userCondition: null
+            warning: null
+            width: 25
+        name: Contenuto
+        uid: bfc58676-f97b-42d3-ac0d-c49b322a72f3
+        userCondition: null
+group: 6b0a27c7-23fd-4d8f-a780-551ac5a52981 # Campi Base
+handle: fieldImage
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: Image
+sortOrder: 12
+topLevel: false

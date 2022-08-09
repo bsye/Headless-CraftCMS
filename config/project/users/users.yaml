@@ -1,0 +1,7 @@
+allowPublicRegistration: false
+deactivateByDefault: false
+defaultGroup: ''
+photoSubpath: '{username}'
+photoVolumeUid: ca924c9a-2a3b-4659-8159-8c68eb20d053 # Avatars
+requireEmailVerification: true
+validateOnPublicRegistration: false

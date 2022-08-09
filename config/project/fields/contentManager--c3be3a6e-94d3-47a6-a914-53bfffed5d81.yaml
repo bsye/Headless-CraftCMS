@@ -1,0 +1,17 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: afaa687b-ea74-450d-ae0a-dce52fbd66fa # Layout
+handle: contentManager
+instructions: null
+name: 'Content Manager'
+searchable: false
+settings:
+  maxBlocks: null
+  maxLevels: null
+  maxTopBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: benf\neo\Field

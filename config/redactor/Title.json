@@ -1,0 +1,16 @@
+{
+  "buttons": [
+    "html",
+    "formatting",
+    "bold",
+    "italic",
+    "link",
+    "image"
+  ],
+  "plugins": [
+    "fullscreen",
+    "alignment"
+  ],
+  "linkNewTab": true,
+  "toolbarFixed": true
+}

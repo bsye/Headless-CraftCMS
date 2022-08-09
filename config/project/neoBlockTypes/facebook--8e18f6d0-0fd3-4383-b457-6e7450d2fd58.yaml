@@ -1,0 +1,28 @@
+childBlocks: null
+description: ''
+field: 1243147e-fe16-4f7b-b259-3fc728ef1ba3 # Social
+fieldLayouts:
+  80ebdf56-2d11-48ad-af32-e2d0d4a299d6:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 6d816f8a-85a4-42a4-873d-091a271a7505 # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b5c81ae8-33be-4657-99f5-90567083dd08
+            warning: null
+            width: 100
+        name: Facebook
+        uid: 46c9517a-909b-4f14-ac71-1d23c749982b
+group: null
+handle: facebook
+maxBlocks: 1
+maxChildBlocks: 0
+maxSiblingBlocks: 1
+name: Facebook
+sortOrder: 1
+topLevel: true

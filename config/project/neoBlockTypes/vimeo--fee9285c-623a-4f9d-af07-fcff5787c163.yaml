@@ -1,0 +1,28 @@
+childBlocks: null
+description: ''
+field: 1243147e-fe16-4f7b-b259-3fc728ef1ba3 # Social
+fieldLayouts:
+  e8a8aefe-18b1-47db-b3b2-cced21b0514c:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 6d816f8a-85a4-42a4-873d-091a271a7505 # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 09047b90-0e93-41fb-bc27-c5a79a7115ce
+            warning: null
+            width: 100
+        name: Vimeo
+        uid: ae9cfead-341f-4e06-9aaf-45423d4f95ac
+group: null
+handle: vimeo
+maxBlocks: 1
+maxChildBlocks: 0
+maxSiblingBlocks: 1
+name: Vimeo
+sortOrder: 4
+topLevel: true

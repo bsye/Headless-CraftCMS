@@ -1,0 +1,69 @@
+{
+  "buttons": [
+    "html",
+    "formatting",
+    "bold",
+    "italic",
+    "unorderedlist",
+    "orderedlist",
+    "link",
+    "image"
+  ],
+  "formattingAdd": {
+    "h3": {
+        "title": "Testo Size 90/90 - 48/48",
+        "api": "module.block.format",
+        "args": {
+            "tag": "p",
+            "class": "text-2xl"
+        }
+    },
+    "h4": {
+        "title": "Testo Size 32/36 - 32/36",
+        "api": "module.block.format",
+        "args": {
+            "tag": "p",
+            "class": "text-xl"
+        }
+    },
+    "h5": {
+        "title": "Testo Size 24/24 - 24/24",
+        "api": "module.block.format",
+        "args": {
+            "tag": "p",
+            "class": "text-lg"
+        }
+    },
+    "h6": {
+        "title": "Testo Size 18/24 - 18/24",
+        "api": "module.block.format",
+        "args": {
+            "tag": "p",
+            "class": "text-mlg"
+        }
+    },
+    "span1": {
+        "title": "Testo Size 16/24 - 16/24",
+        "api": "module.block.format",
+        "args": {
+            "tag": "p",
+            "class": "text-base"
+        }
+    },
+    "span2": {
+        "title": "Testo Size 14/18 - 14/18",
+        "api": "module.block.format",
+        "args": {
+            "tag": "p",
+            "class": "text-sm"
+        }
+    }
+  },
+  "formattingHide": ["pre", "h1", "h2", "h3", "h4", "h5", "h6"],
+  "plugins": [
+    "fullscreen",
+    "alignment"
+  ],
+  "linkNewTab": true,
+  "toolbarFixed": true
+}

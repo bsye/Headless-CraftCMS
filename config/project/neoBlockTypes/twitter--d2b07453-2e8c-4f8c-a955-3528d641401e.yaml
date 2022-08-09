@@ -1,0 +1,28 @@
+childBlocks: null
+description: ''
+field: 1243147e-fe16-4f7b-b259-3fc728ef1ba3 # Social
+fieldLayouts:
+  f17aa65f-dac9-4e61-ac95-ad8eac2ab3b4:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 6d816f8a-85a4-42a4-873d-091a271a7505 # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2d277a5c-9c20-409d-ba9c-6e2ac2260171
+            warning: null
+            width: 100
+        name: Twitter
+        uid: 0642caad-8de7-4c47-8afb-82ef8285e1c0
+group: null
+handle: twitter
+maxBlocks: 1
+maxChildBlocks: 0
+maxSiblingBlocks: 1
+name: Twitter
+sortOrder: 6
+topLevel: true

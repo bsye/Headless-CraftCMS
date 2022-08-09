@@ -1,0 +1,20 @@
+fieldLayouts:
+  b7bbf261-5448-489b-89c1-09728b55fbf5:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 1243147e-fe16-4f7b-b259-3fc728ef1ba3 # Social
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: da6f61bd-188a-4108-bfd5-5582c0063aa5
+            warning: null
+            width: 100
+        name: Socials
+        uid: fcda2cd3-4ad7-435f-8265-f9cbadc12076
+handle: socials
+name: Socials
+sortOrder: 3

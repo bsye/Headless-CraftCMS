@@ -1,0 +1,28 @@
+childBlocks: null
+description: ''
+field: b3a899f2-adc6-442d-927d-45aede27e55f # Contenuto footer
+fieldLayouts:
+  b5750751-70af-4f0b-bdc8-cd7af46fd152:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 3b8d4c9e-5d35-4fcb-a6e6-177a8c5b8342 # Navigation menu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: defd40fe-62ad-4f7b-96d0-a7264b7f8505
+            warning: null
+            width: 100
+        name: Contenuto
+        uid: b408bea2-42a4-4387-9c23-716e010743ed
+group: null
+handle: footerNavigationMenu
+maxBlocks: 4
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: 'Menu di navigazione'
+sortOrder: 2
+topLevel: true

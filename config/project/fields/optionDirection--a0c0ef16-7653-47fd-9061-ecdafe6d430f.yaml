@@ -1,0 +1,45 @@
+columnSuffix: vfyjdolp
+contentColumnType: string
+fieldGroup: cc5cc4b1-3070-415f-a2e3-921644b96e01 # Campi opzione
+handle: optionDirection
+instructions: null
+name: 'Allineamento Verticale'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'In alto'
+        -
+          - value
+          - vertical-start
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Al centro'
+        -
+          - value
+          - vertical-center
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'In fondo'
+        -
+          - value
+          - vertical-end
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons

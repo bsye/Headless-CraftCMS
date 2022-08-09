@@ -1,0 +1,211 @@
+fieldLayouts:
+  b064c50e-ec2e-438d-b800-e5e0623615aa:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            heading: Titolo
+            type: craft\fieldlayoutelements\Heading
+            uid: 36f70a6a-54ff-4e1e-9db0-9444bd2441ae
+            userCondition: null
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: __blank__
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 2b350efc-5fa7-4e60-93ec-3fdb1bcec977
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: 'Aggiungere spaziatura dall''alto'
+            type: craft\fieldlayoutelements\Heading
+            uid: 647cd60c-2b20-4db5-859c-06af18d3d416
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: c84395fa-0c68-480d-9b9a-64d902665806 # Aggiungere spaziatura dall'alto
+            instructions: null
+            label: __blank__
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1b2315da-0c11-45f5-941f-caaa0d0f832a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: 'Nascondi titolo della pagina'
+            type: craft\fieldlayoutelements\Heading
+            uid: 5bc42233-2a2d-4e25-98f5-e3cc2e092546
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 7751639b-9673-4569-912d-214b3c47ed13 # Nascondi il titolo della pagina
+            instructions: null
+            label: __blank__
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 95fb2b7c-a464-4329-b268-2b50573d0f75
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: 'Colore dell''header'
+            type: craft\fieldlayoutelements\Heading
+            uid: efa25f42-b21a-45c0-8f85-f7aa836b243d
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 848ac342-2bd1-4b67-91fd-e3287bd33d0e
+            instructions: null
+            label: __blank__
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e0bf4f25-8313-40e9-804a-907e2478a3ef
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: 'Colore di sfondo della pagina'
+            type: craft\fieldlayoutelements\Heading
+            uid: 892aa0c3-d8a2-42f5-8379-3b47e52788a7
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: bb6a5f43-5774-4c2a-916b-74169652fd12 # Colore di background
+            instructions: null
+            label: __blank__
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b60dcbf6-9eba-4ebd-994a-f3b1ce8f762c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: 'Immagine di anteprima'
+            type: craft\fieldlayoutelements\Heading
+            uid: 463c6c85-729c-4a89-bc71-22e42cc479db
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 1527f785-ba6f-4398-9ee1-b04be3fb7312 # Image
+            instructions: null
+            label: __blank__
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 23389f26-183a-42ce-9d99-eff335fb7ab5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: 'Immagine di copertina'
+            type: craft\fieldlayoutelements\Heading
+            uid: 1aefe35b-f05c-4e22-9ac4-3103142615a1
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 6f41b439-cb99-4e0f-8149-758e632633a1 # Background Image
+            instructions: null
+            label: __blank__
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 61572218-f8e9-47c5-a89a-2865653ce448
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: Contenuto
+            type: craft\fieldlayoutelements\Heading
+            uid: e4872439-d8df-43d1-ba10-e671e44f2c22
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: c3be3a6e-94d3-47a6-a914-53bfffed5d81 # Content Manager
+            instructions: null
+            label: __blank__
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5f10396e-74cd-477f-80b7-f761b7788c7f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Contenuto
+        uid: cfef719a-7f4b-4102-8eb4-7970e2c000fd
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6677968f-f800-4f1b-b442-9eb3030ec503 # Preset colori
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 15b3eff3-5121-4fef-9d89-f5e7cddbd372
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Preset colori'
+        uid: 24b066ff-fca5-4fce-bb30-b381ec01056b
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 321ea2f9-b424-4624-96b5-b9ff73a00a12 # SEO info
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6494519c-4922-4999-8db3-d6971ef8d555
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: bdc5c467-23e9-48b0-804c-3297033c768a
+        userCondition: null
+handle: default
+hasTitleField: true
+name: 'Impostazione predefinita'
+section: 8819872b-fa81-4b02-9f91-1e6aa8cb1512 # Pagine
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

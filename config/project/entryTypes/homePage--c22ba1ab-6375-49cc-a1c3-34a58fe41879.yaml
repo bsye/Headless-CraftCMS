@@ -1,0 +1,139 @@
+fieldLayouts:
+  63c55dc1-5059-47ad-8a97-3984693d6163:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            heading: Titolo
+            type: craft\fieldlayoutelements\Heading
+            uid: 312c07bf-06d8-4ca7-a54a-95ce84ddb938
+            userCondition: null
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: __blank__
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 2c5e68d3-1674-4fab-aea3-cfb7c5e7944a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: 'Colore Header'
+            type: craft\fieldlayoutelements\Heading
+            uid: 482fa6b0-b3c2-4ed9-b9ec-73c62b426f35
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 848ac342-2bd1-4b67-91fd-e3287bd33d0e
+            instructions: null
+            label: __blank__
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f165add1-ff83-48a2-9a2b-49c9795c80d3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: 'Colori di sfondo della pagina'
+            type: craft\fieldlayoutelements\Heading
+            uid: 620c271a-9806-4503-afbb-244c13ea1334
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: bb6a5f43-5774-4c2a-916b-74169652fd12 # Colore di background
+            instructions: null
+            label: __blank__
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fdbedb86-7130-4091-a5a1-726daff53bf7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: 'Contenuto della pagina'
+            type: craft\fieldlayoutelements\Heading
+            uid: 0c50b042-c420-4dcf-a701-f57233ae2a1c
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: c3be3a6e-94d3-47a6-a914-53bfffed5d81 # Content Manager
+            instructions: null
+            label: __blank__
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a658c5cc-1a2b-4f28-a7fa-6dcd68950274
+            userCondition: null
+            warning: null
+            width: 100
+        name: Contenuto
+        uid: 97df6afd-51db-4030-9dd2-0e1f080bde3d
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6677968f-f800-4f1b-b442-9eb3030ec503 # Preset colori
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 23da842d-2d9d-4996-8a2a-28b0c2378e2f
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Preset Colori'
+        uid: 1e4a4c6e-c985-49cc-8bd9-a66c4912ba68
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 321ea2f9-b424-4624-96b5-b9ff73a00a12 # SEO info
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 92662e35-7848-4e50-8574-484be6c6176c
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: c4b89b92-8c00-48c8-8b6e-5bd7c92d296f
+        userCondition: null
+handle: homePage
+hasTitleField: false
+name: 'Home Page'
+section: 7ed99a8c-d1da-4403-8fe6-d7970a591477 # Home Page
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,17 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: ecf723b4-42fb-42b8-8e7e-ba1f8119c684 # Globali
+handle: footerContent
+instructions: null
+name: 'Contenuto footer'
+searchable: false
+settings:
+  maxBlocks: 4
+  maxLevels: null
+  maxTopBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: benf\neo\Field

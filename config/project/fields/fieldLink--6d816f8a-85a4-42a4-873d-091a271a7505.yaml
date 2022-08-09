@@ -1,0 +1,62 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 852db3e5-fe6a-4193-a94e-9fc2f6138ccc # Campi di base
+handle: fieldLink
+instructions: null
+name: Link
+searchable: false
+settings:
+  allowCustomText: true
+  allowTarget: false
+  autoNoReferrer: false
+  customTextMaxLength: 0
+  customTextRequired: false
+  defaultLinkName: url
+  defaultText: ''
+  enableAllLinkTypes: true
+  enableAriaLabel: false
+  enableElementCache: false
+  enableTitle: false
+  typeSettings:
+    asset:
+      allowCrossSiteLink: false
+      allowCustomQuery: false
+      enabled: false
+      sources: '*'
+    category:
+      allowCrossSiteLink: false
+      allowCustomQuery: false
+      enabled: false
+      sources: '*'
+    custom:
+      allowAliases: false
+      disableValidation: false
+      enabled: false
+    email:
+      allowAliases: false
+      disableValidation: false
+      enabled: false
+    entry:
+      allowCrossSiteLink: false
+      allowCustomQuery: false
+      enabled: false
+      sources: '*'
+    site:
+      enabled: false
+      sites: '*'
+    tel:
+      allowAliases: false
+      disableValidation: false
+      enabled: false
+    url:
+      allowAliases: false
+      disableValidation: false
+      enabled: false
+    user:
+      allowCrossSiteLink: false
+      allowCustomQuery: false
+      enabled: false
+      sources: '*'
+translationKeyFormat: null
+translationMethod: site
+type: lenz\linkfield\fields\LinkField

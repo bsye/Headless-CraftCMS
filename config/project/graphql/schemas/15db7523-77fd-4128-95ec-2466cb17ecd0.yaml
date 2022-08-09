@@ -1,0 +1,56 @@
+isPublic: false
+name: 'Schema preview'
+scope:
+  - 'sites.438f0b6e-6006-4026-93ab-4fffd2f8344c:read' # Website IT
+  - 'sites.d68686b0-bb31-46a3-8849-d7e61ee184c8:read'
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.166c0a54-8df1-400d-b64d-10f081b54ff6:read'
+  - 'entrytypes.0757102d-ba77-49fe-9a1c-54217159d855:read'
+  - 'sections.a24001b9-d659-4b6e-a072-3cef0e5903a0:read'
+  - 'entrytypes.ab3d218d-5567-483d-b79c-aef140e16a35:read'
+  - 'sections.8203675b-ef84-43f2-b62e-199b5ca35f77:read'
+  - 'entrytypes.55fa9cad-29e6-4c67-8fc1-2e2dd6bf61ea:read'
+  - 'sections.1883fea6-975a-407a-8d63-9f8c99aa2f12:read' # Archivio News
+  - 'entrytypes.e6e06e73-bee4-4ebf-a8bb-407ea9db43de:read' # Archivio News
+  - 'sections.de03f742-c542-4ebb-94de-0d748df14ba1:read'
+  - 'entrytypes.6338a81f-8209-4e19-8dac-d8750e7c5fcf:read'
+  - 'sections.720fd744-daa3-49d1-8159-9a50b9d16375:read'
+  - 'entrytypes.5b2f3b03-550c-4cbb-90fa-7994242cb1e3:read'
+  - 'sections.4e2d0193-f0b1-432a-a526-201702d64085:read'
+  - 'entrytypes.0f439117-ba3c-4360-9d8b-4cb94f134714:read'
+  - 'sections.41ec9a6d-a47c-44fb-a68b-5c7e0c5fa890:read'
+  - 'entrytypes.a04bdb58-96c3-4183-9c39-f2ae4d90fd39:read'
+  - 'sections.7ed99a8c-d1da-4403-8fe6-d7970a591477:read' # Home Page
+  - 'entrytypes.c22ba1ab-6375-49cc-a1c3-34a58fe41879:read' # Home Page
+  - 'sections.579e50db-262c-400f-93bc-58c624f65f11:read'
+  - 'entrytypes.50d89303-ac22-4c68-bc4e-8b24c7dcd0a2:read'
+  - 'sections.3ffaf07c-d071-4499-b470-d79daa0c7aae:read' # News
+  - 'entrytypes.e92ae8db-5365-498b-9314-9befd8d4f05c:read' # Impostazione predefinita
+  - 'sections.fefaba40-38ef-4230-82f5-90f2346e2441:read'
+  - 'entrytypes.2daa2350-a2cb-44f1-87ad-13917800f216:read'
+  - 'sections.8819872b-fa81-4b02-9f91-1e6aa8cb1512:read' # Pagine
+  - 'entrytypes.129ace49-4a04-4d35-bf8d-ddad2809e478:read' # Impostazione predefinita
+  - 'sections.30a62a78-6603-47b1-8a8f-ef15d17583cb:read'
+  - 'entrytypes.2af1762a-9236-4c73-85d2-b202293947ea:read'
+  - 'sections.f05cb49b-97ee-4fd8-bbf8-b6448c3f1c07:read'
+  - 'entrytypes.f4e0d52f-e811-44b3-a7a4-eb6db230a0a1:read'
+  - 'sections.30dff06d-37f1-45c0-ad75-a874bc53bcb2:read'
+  - 'entrytypes.6feee9f4-1b48-40b1-bfdd-af3ce2e45c45:read'
+  - 'volumes.a55ddf83-f714-4721-b32b-67b02cf59ef6:read' # media
+  - 'globalsets.7dcd5dd4-f91a-4a3d-b45e-26f2c9d57885:read' # Informazioni SEO
+  - 'globalsets.c5f24fff-622e-4116-b6c1-ba0c7235a8e6:read'
+  - 'globalsets.5b131fca-5cfb-4f35-bb4c-9b467d658386:read' # Socials
+  - 'globalsets.c97d6f1a-2cbc-449b-81d6-215aafe99f6c:read' # Footer 1
+  - 'globalsets.f9d91014-3ce9-4bf6-9ff8-e6e2a5ee3627:read' # Footer 2
+  - 'globalsets.d6bdd481-7959-416a-a3ed-dec453773a89:read' # Footer 3
+  - 'globalsets.6ed7b8ac-4d2d-48fc-bf49-e63fb9703ecf:read' # Footer 4
+  - 'categorygroups.dbdd30bb-96dd-4cba-89bb-d8d3c4f86acf:read'
+  - 'categorygroups.049cef1a-e59d-4bde-8848-a2e7435a8d12:read'
+  - 'categorygroups.d919c168-e7df-4a1f-92d4-c8d9e90c2dbe:read'
+  - 'navigationNavs.all:read'
+  - 'navigationNavs.2adb9439-35bf-472c-ae48-a844bf8f5af3:read' # Menu Main Desktop
+  - 'navigationNavs.ee8b0c18-3c9d-4842-b80f-bf1819717122:read' # Menu Overlay Mobile
+  - 'navigationNavs.6550953d-66f3-4713-af6f-dbda8538a9f5:read'
+  - 'navigationNavs.b63e9bf6-8b6a-44be-ab8f-c4ae09025077:read'

@@ -1,0 +1,33 @@
+field: b3a899f2-adc6-442d-927d-45aede27e55f # Contenuto footer
+fieldLayouts:
+  8b907aaf-7c94-4b09-93c3-c07e58ca409a:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 88f23f1e-6e96-467c-80ae-5735c97649c1 # Menu di navigazione
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1bd6d572-0f72-42c1-aba1-9984fca230a0
+            warning: null
+            width: 100
+        name: Content
+        uid: e22e7d51-00af-4d12-924d-d811b619e2b7
+fields:
+  88f23f1e-6e96-467c-80ae-5735c97649c1: # Menu di navigazione
+    columnSuffix: zmvbrwha
+    contentColumnType: text
+    fieldGroup: null
+    handle: navigationMenu
+    instructions: null
+    name: 'Menu di navigazione'
+    searchable: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\navigation\fields\NavigationField
+handle: footerNavigation
+name: 'Menu di navigazione'
+sortOrder: 2

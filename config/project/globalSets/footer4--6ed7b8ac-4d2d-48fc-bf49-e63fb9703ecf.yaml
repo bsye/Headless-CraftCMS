@@ -1,0 +1,20 @@
+fieldLayouts:
+  869aadb4-12d6-46a6-921b-89b2a16a97ff:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: b3a899f2-adc6-442d-927d-45aede27e55f # Contenuto footer
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 36d5940d-a4b1-4abe-90de-eaafff2bf884
+            warning: null
+            width: 100
+        name: 'Contenuto Footer 4'
+        uid: 4fb5d8db-c408-4f42-ba2d-07cd8b982d2a
+handle: footer4
+name: 'Footer 4'
+sortOrder: 7

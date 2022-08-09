@@ -1,0 +1,67 @@
+columnSuffix: ifdekqvi
+contentColumnType: string
+fieldGroup: 852db3e5-fe6a-4193-a94e-9fc2f6138ccc # Campi di base
+handle: fieldSpacer
+instructions: null
+name: Spacer
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Very small 10px'
+        -
+          - value
+          - space-verysmall
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Small 35px'
+        -
+          - value
+          - space-small
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Medium 60px'
+        -
+          - value
+          - space-medium
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Large 75px'
+        -
+          - value
+          - space-large
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Very Large 100px'
+        -
+          - value
+          - space-verylarge
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Dropdown

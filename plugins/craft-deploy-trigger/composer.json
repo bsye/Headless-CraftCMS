@@ -1,0 +1,31 @@
+{
+  "name": "dueper/craft-deploy-trigger",
+  "description": "",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "keywords": ["some", "keywords", "here"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dueper Studio",
+      "homepage": "https://dueper.net"
+    }
+  ],
+  "support": {
+    "email": "info@dueper.net"
+  },
+  "require": {
+    "craftcms/cms": "^4.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "dueper\\deploy\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Craft Deploy Trigger",
+    "handle": "craft-deploy-trigger",
+    "hasCpSettings": false,
+    "hasCpSection": true
+  }
+}

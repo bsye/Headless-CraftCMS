@@ -1,0 +1,45 @@
+columnSuffix: tofenwfk
+contentColumnType: string
+fieldGroup: 852db3e5-fe6a-4193-a94e-9fc2f6138ccc # Campi di base
+handle: fieldSeparator
+instructions: null
+name: Separator
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Separatore Grande'
+        -
+          - value
+          - separator-big
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Separatore Medio'
+        -
+          - value
+          - separator-medium
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Separatore Piccolo'
+        -
+          - value
+          - separator-small
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\RadioButtons

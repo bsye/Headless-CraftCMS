@@ -1,0 +1,48 @@
+fieldLayouts:
+  55d19fb9-8cb7-4e2e-a632-c3b84cfa3d3f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 1527f785-ba6f-4398-9ee1-b04be3fb7312 # Image
+            instructions: null
+            label: Favicon
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5f380599-6f11-4ea2-983b-15f6e2ce11bd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 962110f8-a6a9-427d-b9b4-096961d93314 # Plain Title
+            instructions: null
+            label: 'Titolo SEO'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ad23061f-0ba5-4608-a38f-00af99986293
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 07473540-e06e-4000-a0d3-f7a4723b4ad9 # Plain Description
+            instructions: null
+            label: 'Descrizione SEO'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0d627fc4-c47a-4e8a-8a99-69e6f1b5d702
+            userCondition: null
+            warning: null
+            width: 100
+        name: Info
+        uid: da987bee-4583-4304-a789-af4f14552dd4
+        userCondition: null
+handle: siteInfo
+name: 'Informazioni SEO'
+sortOrder: 1

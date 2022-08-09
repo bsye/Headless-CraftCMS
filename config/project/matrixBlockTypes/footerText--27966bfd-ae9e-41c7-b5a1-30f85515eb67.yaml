@@ -1,0 +1,50 @@
+field: b3a899f2-adc6-442d-927d-45aede27e55f # Contenuto footer
+fieldLayouts:
+  45afa722-e2ad-499e-aa04-aa766979ec77:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 6d218754-d43c-4fa0-924c-1619ebdf5410 # Contenuto Testuale
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 29cf1f34-d474-4d15-983f-e6ba3dbb37f7
+            warning: null
+            width: 100
+        name: Content
+        uid: 418ba5ff-6b99-4d07-9d46-a5333a996ad9
+fields:
+  6d218754-d43c-4fa0-924c-1619ebdf5410: # Contenuto Testuale
+    columnSuffix: wkknowzl
+    contentColumnType: text
+    fieldGroup: null
+    handle: footerTextContent
+    instructions: null
+    name: 'Contenuto Testuale'
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: footerText
+name: 'Contenuto Testo'
+sortOrder: 1

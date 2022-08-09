@@ -1,0 +1,28 @@
+childBlocks: null
+description: ''
+field: 1243147e-fe16-4f7b-b259-3fc728ef1ba3 # Social
+fieldLayouts:
+  4e1a6347-3a39-4c2e-8d7a-7c86244d6638:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 6d816f8a-85a4-42a4-873d-091a271a7505 # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2828d4bc-d07a-45e2-bef2-cf3fbb04110d
+            warning: null
+            width: 100
+        name: LinkedIn
+        uid: a2a9d23d-9f5b-46e3-99e0-eb8912bd3234
+group: null
+handle: linkedin
+maxBlocks: 1
+maxChildBlocks: 0
+maxSiblingBlocks: 1
+name: LinkedIn
+sortOrder: 3
+topLevel: true

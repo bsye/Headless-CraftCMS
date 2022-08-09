@@ -1,0 +1,157 @@
+fieldLayouts:
+  8384a32c-3ea9-4287-96f0-69443b18d770:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            heading: Titolo
+            type: craft\fieldlayoutelements\Heading
+            uid: 0293ad7a-e3eb-4cb4-8205-07ce0648c25e
+            userCondition: null
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: __blank__
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 666b232b-7cab-4912-b3df-62ac43b3d623
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: 'Nascondi titolo della pagina'
+            type: craft\fieldlayoutelements\Heading
+            uid: 71f3a359-c832-4ba7-8a2e-1504bb63d0ff
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 7751639b-9673-4569-912d-214b3c47ed13 # Nascondi il titolo della pagina
+            instructions: null
+            label: 'Nascondi titolo'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f4f414d5-4b5e-4795-8f32-eb95b2fb3e0b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: 'Colore dell''header'
+            type: craft\fieldlayoutelements\Heading
+            uid: 3de255ef-f4a5-4d0e-ae0b-ebde66118b0b
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 848ac342-2bd1-4b67-91fd-e3287bd33d0e
+            instructions: null
+            label: __blank__
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4f9eaf99-d7e8-4460-8574-c2541c5a3e6a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: 'Colore di sfondo della pagina'
+            type: craft\fieldlayoutelements\Heading
+            uid: 1943bd0b-33a6-4bf8-8ff0-2bc92f850ee9
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: bb6a5f43-5774-4c2a-916b-74169652fd12 # Colore di background
+            instructions: null
+            label: __blank__
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1b326368-e0e8-43c5-b4d5-1ed33502a3c5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: 'Immagine di anteprima'
+            type: craft\fieldlayoutelements\Heading
+            uid: 47d5b59d-d711-46c1-afea-fbd11d39b04e
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 1527f785-ba6f-4398-9ee1-b04be3fb7312 # Image
+            instructions: null
+            label: __blank__
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3f8a7c32-553b-4e3a-bac2-7f4c93abed07
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: Contenuto
+            type: craft\fieldlayoutelements\Heading
+            uid: cf152484-303a-486a-ba65-d9e2b54ad59c
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: c3be3a6e-94d3-47a6-a914-53bfffed5d81 # Content Manager
+            instructions: null
+            label: __blank__
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e62e37ed-f85a-4cc0-a148-9e19a38136f3
+            userCondition: null
+            warning: null
+            width: 100
+        name: Contenuto
+        uid: 1ec565b0-206e-4cee-b293-5d8ccefe1d16
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 321ea2f9-b424-4624-96b5-b9ff73a00a12 # SEO info
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7a7a8e67-7bd6-4200-8e33-a27357b9f8b6
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 371f3f5b-a6f8-4292-9052-2c9c683506a2
+        userCondition: null
+handle: default
+hasTitleField: true
+name: 'Impostazione predefinita'
+section: 3ffaf07c-d071-4499-b470-d79daa0c7aae # News
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

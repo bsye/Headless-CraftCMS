@@ -1,0 +1,83 @@
+{% extends '_layouts/cp' %}
+
+{% set title = "Deploy Trigger" %}
+
+
+{% block content %}
+
+  <p>
+    <h1>
+      Generate new version
+    </h1>
+
+    {% if alias('@generateUrl') %}
+
+      <p>
+        Press the button to generate a new version of the static site in <a href="{{ alias('@webFrontend') }}" target="_blank">{{ alias('@webFrontend') }}</a>.
+      </p>
+
+      <button class="btn submit btngroup-btn-last" id="generate">
+        Generate
+      </button>
+
+      <div class="logs-wrapper">
+        <h3>Logs</h3>
+        <pre id="logs"></pre>
+      </div>
+    {% else %}
+      <p>
+        To generate must be compile <b>@generateUrl</b> alias in .env file
+      </p>
+
+    {% endif %}
+  </p>
+
+  <style>
+  .logs-wrapper {
+    margin-top: 30px;
+  }
+
+  #logs {
+    background: #f2f2f2;
+    padding: 5px;
+  }
+  </style>
+
+  <script>
+    (function() {
+      var button = document.getElementById("generate")
+      var logs = document.getElementById("logs")
+      var endpoint = "{{alias('@generateUrl')}}"
+
+      button.addEventListener("click", function() {
+        button.innerText = "Building..."
+
+        fetch(endpoint, {
+          method: 'POST',
+        })
+        .then(response => response.json())
+        .then(data => {
+          done(data);
+        })
+        .catch((err) => {
+          error(err);
+        })
+      })
+
+      function done(data) {
+        console.log('Success', data)
+        button.innerText = "Done"
+      }
+
+      function error(data) {
+        console.log('error', data)
+        button.innerText = "Error"
+
+        logs.innerText = data
+      }
+
+
+    })()
+  </script>
+
+{% endblock %}

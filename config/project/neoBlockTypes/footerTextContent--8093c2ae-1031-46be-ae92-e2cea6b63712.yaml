@@ -1,0 +1,28 @@
+childBlocks: null
+description: ''
+field: b3a899f2-adc6-442d-927d-45aede27e55f # Contenuto footer
+fieldLayouts:
+  186001bb-21ac-4548-b9bb-de820fd82c10:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: b706aa18-49d5-486f-8f47-3817e3cdedac # Text content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7452dbe3-c4ef-4baa-be51-d45201314cda
+            warning: null
+            width: 100
+        name: Contenuto
+        uid: f3130c18-022f-45f5-997b-55ae071d40e1
+group: null
+handle: footerTextContent
+maxBlocks: 4
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: 'Contenuto Testuale'
+sortOrder: 1
+topLevel: true

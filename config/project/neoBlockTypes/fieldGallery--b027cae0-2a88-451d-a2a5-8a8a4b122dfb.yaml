@@ -1,0 +1,44 @@
+childBlocks: null
+description: ''
+field: c3be3a6e-94d3-47a6-a914-53bfffed5d81 # Content Manager
+fieldLayouts:
+  9dc1a2b8-1da9-45d7-9da8-e49360e8195b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 24178ca3-7874-454a-884e-18edba9a37f4 # Nascondi da
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c4b36271-9383-44d3-92f7-000320957894
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 6818704a-9d3f-4fb5-a26a-63c59babd161 # Images
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 98808455-a42b-45ea-a12b-32cbf73fd173
+            userCondition: null
+            warning: null
+            width: 100
+        name: Contenuto
+        uid: 7cd82fe3-b662-4142-a4e3-fd554082da4c
+        userCondition: null
+group: f8c4f6f4-b454-46d2-91f4-1c88657d8572 # Campi avanzati
+handle: fieldGallery
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: Gallery
+sortOrder: 21
+topLevel: false

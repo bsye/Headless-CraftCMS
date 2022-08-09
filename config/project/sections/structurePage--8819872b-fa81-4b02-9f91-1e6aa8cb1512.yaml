@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+handle: structurePage
+name: Pagine
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Pagina articolo primaria'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  438f0b6e-6006-4026-93ab-4fffd2f8344c: # Website IT
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: '{slug}'
+structure:
+  maxLevels: null
+  uid: 4654d99c-b1ec-4c5d-a74e-072e7f43719f
+type: structure

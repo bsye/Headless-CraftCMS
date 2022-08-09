@@ -1,0 +1,121 @@
+fieldLayouts:
+  342896d5-5247-4de8-a22e-7428b586c5db:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            heading: Titolo
+            type: craft\fieldlayoutelements\Heading
+            uid: b4882925-13bf-40df-b320-72d4188ad9ae
+            userCondition: null
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: __blank__
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 075fda14-b4c6-4e81-bd58-9afb1f64ed77
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: 'Colore Header'
+            type: craft\fieldlayoutelements\Heading
+            uid: 8d202547-41ef-4baf-9eeb-995afca71db4
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 848ac342-2bd1-4b67-91fd-e3287bd33d0e
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3e0ae73d-f3a1-4b41-9292-739e691b318f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: Descrizione
+            type: craft\fieldlayoutelements\Heading
+            uid: c880c7a8-ada4-4558-8508-d09ce3fb8fdf
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: b706aa18-49d5-486f-8f47-3817e3cdedac # Text content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e00721fb-4bfb-4866-bde8-39cd6a92842f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: Immagine
+            type: craft\fieldlayoutelements\Heading
+            uid: 02e06106-d478-468f-bae6-0d80fe8930a9
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 6f41b439-cb99-4e0f-8149-758e632633a1 # Background Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8dad725b-0018-46f5-ad67-7efef9f8056a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Contenuto
+        uid: 0a1c2740-7c2a-4de0-8053-88a9eddc91d9
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 321ea2f9-b424-4624-96b5-b9ff73a00a12 # SEO info
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b8bd968c-bdc3-440e-bea5-177aaa9c6bfb
+            userCondition: null
+            warning: null
+            width: 100
+        name: Seo
+        uid: 5f89a551-6c5d-4145-8e5b-3ff94fee2b3a
+        userCondition: null
+handle: newsArchive
+hasTitleField: true
+name: 'Archivio News'
+section: 1883fea6-975a-407a-8d63-9f8c99aa2f12 # Archivio News
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,20 @@
+columnSuffix: liwevvoz
+contentColumnType: smallint(2)
+fieldGroup: cc5cc4b1-3070-415f-a2e3-921644b96e01 # Campi opzione
+handle: optionElementQuantity
+instructions: null
+name: 'Numero di elementi'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: 20
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Number

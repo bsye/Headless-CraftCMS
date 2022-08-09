@@ -1,0 +1,39 @@
+fieldLayouts:
+  030ba978-e540-4121-9546-758a710632d5:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 8a2f83bc-99bc-4787-afd5-56ca9ade8aa3
+            warning: null
+            width: 100
+        name: Contenuto
+        uid: 9da66831-a781-4e12-9089-ff7e182b56e2
+fs: media
+handle: media
+name: media
+sortOrder: 2
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: media
+transformSubpath: ''

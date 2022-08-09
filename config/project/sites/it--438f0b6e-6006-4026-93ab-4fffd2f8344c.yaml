@@ -1,0 +1,9 @@
+baseUrl: '@webFrontend'
+enabled: true
+handle: it
+hasUrls: true
+language: it-IT
+name: 'Website IT'
+primary: true
+siteGroup: 02428605-d765-4d61-bd92-4d96b28abc53 # Base
+sortOrder: 1
