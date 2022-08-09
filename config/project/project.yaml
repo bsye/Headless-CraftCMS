@@ -1,4 +1,4 @@
-dateModified: 1660054219
+dateModified: 1660054407
 elementSources:
   craft\elements\Entry:
     -
@@ -140,7 +140,7 @@ meta:
     a0c0ef16-7653-47fd-9061-ecdafe6d430f: 'Allineamento Verticale' # Allineamento Verticale
     a0ca8d47-ea2e-4c7c-bda9-6a9ee5c55a3c: Video # Video
     a1b33862-dec4-4567-9059-d12eb449fd6c: 'Stile del bottone' # Stile del bottone
-    a55ddf83-f714-4721-b32b-67b02cf59ef6: media # media
+    a55ddf83-f714-4721-b32b-67b02cf59ef6: Media # media
     a524c41b-7dd0-4c3d-ad1d-080e9b06f106: 'Larghezza immagine' # Larghezza immagine
     a7938778-e7ae-4ecb-9f18-c4832f1f0703: 'Stile del bottone' # Stile del bottone
     ab91f4c0-45cc-496c-bf2c-9ca6dcd09a78: relation # relation
