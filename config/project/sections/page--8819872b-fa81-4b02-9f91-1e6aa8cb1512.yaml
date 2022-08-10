@@ -1,6 +1,6 @@
 defaultPlacement: end
 enableVersioning: true
-handle: structurePage
+handle: page
 name: Pagine
 previewTargets:
   -
