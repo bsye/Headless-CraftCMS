@@ -2,6 +2,7 @@ isPublic: true
 name: 'Public Schema'
 scope:
   - 'sites.438f0b6e-6006-4026-93ab-4fffd2f8344c:read' # Website IT
+  - 'sites.1c811c23-f7c4-4f7b-baee-bce5bb6e91dc:read' # Website EN
   - 'elements.revisions:read'
   - 'elements.inactive:read'
   - 'sections.1883fea6-975a-407a-8d63-9f8c99aa2f12:read' # Archivio News
@@ -12,7 +13,7 @@ scope:
   - 'entrytypes.e92ae8db-5365-498b-9314-9befd8d4f05c:read' # Impostazione predefinita
   - 'sections.8819872b-fa81-4b02-9f91-1e6aa8cb1512:read' # Pagine
   - 'entrytypes.129ace49-4a04-4d35-bf8d-ddad2809e478:read' # Impostazione predefinita
-  - 'volumes.a55ddf83-f714-4721-b32b-67b02cf59ef6:read' # media
+  - 'volumes.a55ddf83-f714-4721-b32b-67b02cf59ef6:read' # Media
   - 'volumes.ca924c9a-2a3b-4659-8159-8c68eb20d053:read' # Avatars
   - 'globalsets.7dcd5dd4-f91a-4a3d-b45e-26f2c9d57885:read' # Informazioni SEO
   - 'globalsets.5b131fca-5cfb-4f35-bb4c-9b467d658386:read' # Socials

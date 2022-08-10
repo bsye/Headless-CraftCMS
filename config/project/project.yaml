@@ -1,4 +1,4 @@
-dateModified: 1660054407
+dateModified: 1660122104
 elementSources:
   craft\elements\Entry:
     -
@@ -57,6 +57,7 @@ meta:
   __names__:
     0e03688e-0017-40dc-9ebb-eaa72b8dc169: Table # Table
     1bc03632-e40f-4da1-bff8-78d3385735a4: Title # Title
+    1c811c23-f7c4-4f7b-baee-bce5bb6e91dc: 'Website EN' # Website EN
     1ebc4402-0ecd-49b3-9322-f571be50d5da: 'Campi PIM' # Campi PIM
     1ec6ae18-7bff-4a14-abd0-9d855e25aa43: 'Text Content' # Text Content
     1edbf544-ebca-4202-af44-efbe142a4935: BC_id # BC_id
@@ -140,7 +141,7 @@ meta:
     a0c0ef16-7653-47fd-9061-ecdafe6d430f: 'Allineamento Verticale' # Allineamento Verticale
     a0ca8d47-ea2e-4c7c-bda9-6a9ee5c55a3c: Video # Video
     a1b33862-dec4-4567-9059-d12eb449fd6c: 'Stile del bottone' # Stile del bottone
-    a55ddf83-f714-4721-b32b-67b02cf59ef6: Media # media
+    a55ddf83-f714-4721-b32b-67b02cf59ef6: Media # Media
     a524c41b-7dd0-4c3d-ad1d-080e9b06f106: 'Larghezza immagine' # Larghezza immagine
     a7938778-e7ae-4ecb-9f18-c4832f1f0703: 'Stile del bottone' # Stile del bottone
     ab91f4c0-45cc-496c-bf2c-9ca6dcd09a78: relation # relation
