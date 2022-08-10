@@ -2,7 +2,7 @@
     "name": "dueper/craft-cms-starter",
     "require": {
         "codemonauts/craft-readonly-field": "2.0.1",
-        "craftcms/cms": "4.2.0.2",
+        "craftcms/cms": "4.2.1",
         "craftcms/redactor": "3.0.2",
         "dueper/craft-deploy-trigger": "^1.0",
         "ether/seo": "v4.0.3",

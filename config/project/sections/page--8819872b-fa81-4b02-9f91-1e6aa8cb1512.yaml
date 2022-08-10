@@ -1,6 +1,6 @@
 defaultPlacement: end
 enableVersioning: true
-handle: structurePage
+handle: page
 name: Pagine
 previewTargets:
   -
@@ -16,6 +16,11 @@ previewTargets:
         - '1'
 propagationMethod: all
 siteSettings:
+  1c811c23-f7c4-4f7b-baee-bce5bb6e91dc: # Website EN
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: '{slug}'
   438f0b6e-6006-4026-93ab-4fffd2f8344c: # Website IT
     enabledByDefault: true
     hasUrls: true
