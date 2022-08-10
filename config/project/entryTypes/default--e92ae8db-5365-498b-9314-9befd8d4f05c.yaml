@@ -32,18 +32,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 7751639b-9673-4569-912d-214b3c47ed13 # Nascondi il titolo della pagina
-            instructions: null
-            label: 'Nascondi titolo della pagina'
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: f4f414d5-4b5e-4795-8f32-eb95b2fb3e0b
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: 1527f785-ba6f-4398-9ee1-b04be3fb7312 # Image
             instructions: null
             label: 'Immagine di anteprima'
