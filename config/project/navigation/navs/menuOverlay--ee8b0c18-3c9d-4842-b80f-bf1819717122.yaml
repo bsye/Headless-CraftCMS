@@ -169,8 +169,12 @@ permissions:
     enabled: '1'
   verbb\navigation\nodetypes\PassiveType:
     enabled: '1'
+  verbb\navigation\nodetypes\SiteType:
+    enabled: '1'
 propagateNodes: false
 siteSettings:
+  1c811c23-f7c4-4f7b-baee-bce5bb6e91dc: # Website EN
+    enabled: true
   438f0b6e-6006-4026-93ab-4fffd2f8344c: # Website IT
     enabled: true
 sortOrder: 4
