@@ -1,4 +1,4 @@
-dateModified: 1660290121
+dateModified: 1660292610
 elementSources:
   craft\elements\Entry:
     -
@@ -36,8 +36,14 @@ email:
   replyToEmail: $EMAIL_REPLYTO_ADDRESS
   template: ''
   transportSettings:
-    command: '/usr/sbin/sendmail -bs'
-  transportType: craft\mail\transportadapters\Sendmail
+    encryptionMethod: $SMTP_ENCRYPTION_METHOD
+    host: $SMTP_HOSTNAME
+    password: $SMTP_PASSWORD
+    port: $SMTP_PORT
+    timeout: '10'
+    useAuthentication: '1'
+    username: $SMTP_USERNAME
+  transportType: craft\mail\transportadapters\Smtp
 fs:
   avatar:
     hasUrls: true
