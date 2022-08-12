@@ -1,4 +1,4 @@
-dateModified: 1660126663
+dateModified: 1660292610
 elementSources:
   craft\elements\Entry:
     -
@@ -36,23 +36,29 @@ email:
   replyToEmail: $EMAIL_REPLYTO_ADDRESS
   template: ''
   transportSettings:
-    command: '/usr/sbin/sendmail -bs'
-  transportType: craft\mail\transportadapters\Sendmail
+    encryptionMethod: $SMTP_ENCRYPTION_METHOD
+    host: $SMTP_HOSTNAME
+    password: $SMTP_PASSWORD
+    port: $SMTP_PORT
+    timeout: '10'
+    useAuthentication: '1'
+    username: $SMTP_USERNAME
+  transportType: craft\mail\transportadapters\Smtp
 fs:
   avatar:
     hasUrls: true
     name: Avatar
     settings:
-      path: '@webroot/avatar'
+      path: '@webRootFileSystem/avatar'
     type: craft\fs\Local
-    url: '@web/avatar'
+    url: '@webFileSystem/avatar'
   media:
     hasUrls: true
     name: Media
     settings:
-      path: '@webroot/media'
+      path: '@webRootFileSystem/media'
     type: craft\fs\Local
-    url: '@web/media'
+    url: '@webFileSystem/media'
 meta:
   __names__:
     0e03688e-0017-40dc-9ebb-eaa72b8dc169: Table # Table
