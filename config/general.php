@@ -25,8 +25,8 @@ return [
     'aliases' => [
         '@web' => App::env('BACKEND_URL'),
         '@webFrontend' => App::env('FRONTEND_URL') ?: 'http://localhost:3000',
-        '@webFileSystem' => App::env('FILE_SYSTEM_URL') ?: App::env('BACKEND_URL') . '/web/',
-        '@webRootFileSystem' => App::env('ROOT_FILE_SYSTEM_URL') ?: dirname(__DIR__) . '/web/',
+        '@webFileSystem' => App::env('FILE_SYSTEM_URL') ?: App::env('BACKEND_URL'),
+        '@webRootFileSystem' => App::env('FILE_SYSTEM_PATH') ?: dirname(__DIR__) . '/web/',
         '@generateUrl' => App::env('GENERATE_URL') ?: 'http://localhost:3000',
     ],
 
