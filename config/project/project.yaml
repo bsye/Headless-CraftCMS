@@ -1,4 +1,4 @@
-dateModified: 1660126663
+dateModified: 1660290121
 elementSources:
   craft\elements\Entry:
     -
@@ -43,16 +43,16 @@ fs:
     hasUrls: true
     name: Avatar
     settings:
-      path: '@webroot/avatar'
+      path: '@webRootFileSystem/avatar'
     type: craft\fs\Local
-    url: '@web/avatar'
+    url: '@webFileSystem/avatar'
   media:
     hasUrls: true
     name: Media
     settings:
-      path: '@webroot/media'
+      path: '@webRootFileSystem/media'
     type: craft\fs\Local
-    url: '@web/media'
+    url: '@webFileSystem/media'
 meta:
   __names__:
     0e03688e-0017-40dc-9ebb-eaa72b8dc169: Table # Table

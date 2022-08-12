@@ -23,9 +23,11 @@ return [
     'headlessMode' => true,
 
     'aliases' => [
-        '@webFrontend' => App::env('FRONTEND_URL'),
         '@web' => App::env('BACKEND_URL'),
-        '@generateUrl' => App::env('GENERATE_URL') ?: '',
+        '@webFrontend' => App::env('FRONTEND_URL') ?: 'http://localhost:3000',
+        '@webFileSystem' => App::env('FILE_SYSTEM_URL') ?: App::env('BACKEND_URL') . '/web/',
+        '@webRootFileSystem' => App::env('ROOT_FILE_SYSTEM_URL') ?: dirname(__DIR__) . '/web/',
+        '@generateUrl' => App::env('GENERATE_URL') ?: 'http://localhost:3000',
     ],
 
     'limitAutoSlugsToAscii' => true,
