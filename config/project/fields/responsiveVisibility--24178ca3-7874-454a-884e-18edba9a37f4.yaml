@@ -1,0 +1,56 @@
+columnSuffix: unifedwo
+contentColumnType: string
+fieldGroup: cc5cc4b1-3070-415f-a2e3-921644b96e01 # Campi opzione
+handle: responsiveVisibility
+instructions: null
+name: 'Nascondi da'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Mobile
+        -
+          - value
+          - hide-mobile
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Tablet
+        -
+          - value
+          - hide-tablet
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Desktop
+        -
+          - value
+          - hide-desktop
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Wide
+        -
+          - value
+          - hide-wide
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Checkboxes

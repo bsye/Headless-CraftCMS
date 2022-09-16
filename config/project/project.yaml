@@ -1,4 +1,4 @@
-dateModified: 1660292610
+dateModified: 1663313533
 elementSources:
   craft\elements\Entry:
     -
@@ -97,7 +97,7 @@ meta:
     38bcd39a-ff3b-4a78-ad56-6f3cc642fe2c: Default # Default
     39d9e3f3-e548-425d-abec-8c10a3bc61db: 'Coordinate Y' # Coordinate Y
     43d28f5a-3663-453a-8332-5fa3d0accc7a: Title # Title
-    47c53f3a-0468-4e00-b88a-ff437368d140: Pulsante # Pulsante
+    47c53f3a-0468-4e00-b88a-ff437368d140: Pulsanti # Pulsanti
     48f00871-2b8f-4bfd-ad93-a2079acfb94f: Editor # Editor
     48fcdb58-2ba1-4a7b-8c49-ccbe35612cd9: Embed # Embed
     52dc4d15-d7aa-473c-83ac-137ddfd8ef97: relation # relation
@@ -126,9 +126,9 @@ meta:
     3897ffaf-6798-4001-9434-d0ca315e1721: LinkedIn # LinkedIn
     7630eb7a-a6fb-42a8-ab0a-803e16bfc054: 'Filtro contenuto' # Filtro contenuto
     8093c2ae-1031-46be-ae92-e2cea6b63712: 'Contenuto Testuale' # Contenuto Testuale
-    08631aac-b801-4fa7-a161-3fdfca037605: Link # Link
     24178ca3-7874-454a-884e-18edba9a37f4: 'Nascondi da' # Nascondi da
     27966bfd-ae9e-41c7-b5a1-30f85515eb67: 'Contenuto Testo' # Contenuto Testo
+    46650e46-01fe-4fb1-833e-8e1d99e48530: 'Numero di colonne Mobile' # Numero di colonne Mobile
     58214e02-1bee-4655-8760-28aaa4ebbd27: Embed # Embed
     68216db3-2750-491c-bddc-06157fb991fe: 'Categoria news' # Categoria news
     410016ad-5715-4c4b-b877-d5cf1d04dcb0: 'Lista News' # Lista News
@@ -154,6 +154,7 @@ meta:
     ab1131d2-82b5-4517-b18b-71e6dd6d91e0: Column # Column
     afaa687b-ea74-450d-ae0a-dce52fbd66fa: Layout # Layout
     b027cae0-2a88-451d-a2a5-8a8a4b122dfb: Gallery # Gallery
+    b07de203-0c44-4603-bed6-e0cef2afcf90: 'Numero di colonne Desktop' # Numero di colonne Desktop
     b3a899f2-adc6-442d-927d-45aede27e55f: 'Contenuto footer' # Contenuto footer
     b81fb740-8603-4776-98c0-7db7187d226a: 'Layout 2' # Layout 2
     b706aa18-49d5-486f-8f47-3817e3cdedac: 'Text content' # Text content
@@ -186,7 +187,9 @@ meta:
     e62447fb-c123-45fb-8e62-05cdeb9bc64d: Layout # Layout
     ecf723b4-42fb-42b8-8e7e-ba1f8119c684: Globali # Globali
     ee8b0c18-3c9d-4842-b80f-bf1819717122: 'Menu Overlay Mobile' # Menu Overlay Mobile
+    ee8431b7-0df7-4e5a-92da-2aeb96d451bc: 'Numero di colonne Tablet' # Numero di colonne Tablet
     f2a61bce-0871-45dc-bdb0-d9b856ebc7e3: image # image
+    f2a1093d-aa07-407c-80ea-2b9379cb5779: 'Numero di colonne Wide' # Numero di colonne Wide
     f5bca9ff-effe-471d-99cf-ade304c4ccd2: 'Altezza del blocco' # Altezza del blocco
     f8c4f6f4-b454-46d2-91f4-1c88657d8572: 'Campi avanzati' # Campi avanzati
     f9d91014-3ce9-4bf6-9ff8-e6e2a5ee3627: 'Footer 2' # Footer 2

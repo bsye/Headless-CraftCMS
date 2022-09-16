@@ -1,0 +1,112 @@
+childBlocks: null
+description: ''
+field: c3be3a6e-94d3-47a6-a914-53bfffed5d81 # Content Manager
+fieldLayouts:
+  fc2010a0-aab9-4cca-b6b5-27bbca438ef0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 24178ca3-7874-454a-884e-18edba9a37f4 # Nascondi da
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 42f72e23-c99a-46c8-91f5-51171d8e3825
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 2f0b99aa-1d61-4c29-87d9-b2f4981edaaa
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 068aaab7-485d-48fa-8ecc-8ddddb257a15 # Visualizza come slider
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 71ec7521-771e-4e10-a5dd-8e2d2588b27e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 11019148-36c4-4256-92ec-bb68fe828320
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 7630eb7a-a6fb-42a8-ab0a-803e16bfc054 # Filtro contenuto
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ab8c230b-882f-4b5d-80f1-a39316874274
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition:
+              class: craft\elements\conditions\ElementCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: 7630eb7a-a6fb-42a8-ab0a-803e16bfc054 # Filtro contenuto
+                  operator: in
+                  uid: b494976a-f45d-4993-878f-7221645c37ca
+                  values:
+                    - selection
+              elementType: benf\neo\elements\Block
+              fieldContext: global
+            fieldUid: 73ebb5e2-3463-4b24-84cd-3766b8e0e524 # Scelta News
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a239c3c9-6f22-4f16-8521-ae03c5e95132
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition:
+              class: craft\elements\conditions\ElementCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: 7630eb7a-a6fb-42a8-ab0a-803e16bfc054 # Filtro contenuto
+                  operator: in
+                  uid: b8bfeb6b-a826-47ce-87e5-7a7eeba012e6
+                  values:
+                    - seeAll
+              elementType: benf\neo\elements\Block
+              fieldContext: global
+            fieldUid: c135abde-0e56-47f4-a862-f21493c626cf # Numero di elementi
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1255835d-c1ce-40c2-bba5-ac8934269565
+            userCondition: null
+            warning: null
+            width: 100
+        name: Contenuto
+        uid: 68f994fc-f663-4da0-9ea5-b9bb1c889ee5
+        userCondition: null
+group: 08c96971-ae40-49f6-bcb3-285abbf0a86e # Campi relazionali
+handle: blockListNews
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: 'Lista News'
+sortOrder: 7
+topLevel: false

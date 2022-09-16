@@ -7,13 +7,13 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 47c53f3a-0468-4e00-b88a-ff437368d140 # Pulsante
+            fieldUid: 47c53f3a-0468-4e00-b88a-ff437368d140 # Pulsanti
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 1ba50f53-f8cb-4881-a069-18178566b2ce
+            uid: 34b05d46-3cdf-4afd-9829-65dd7672d860
             userCondition: null
             warning: null
             width: 100
@@ -25,7 +25,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0482591f-e183-41f7-85d8-59b344b66857
+            uid: 1a75c953-f9ff-4fd7-afda-951f2508cd0e
             userCondition: null
             warning: null
             width: 100
@@ -33,13 +33,13 @@ fieldLayouts:
         uid: 77de323f-e26c-463e-884d-fede77f66de6
         userCondition: null
 fields:
-  47c53f3a-0468-4e00-b88a-ff437368d140: # Pulsante
+  47c53f3a-0468-4e00-b88a-ff437368d140: # Pulsanti
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: fieldButton
+    handle: buttons
     instructions: null
-    name: Pulsante
+    name: Pulsanti
     searchable: false
     settings:
       allowCustomText: true
@@ -100,7 +100,7 @@ fields:
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: fieldButtonStyle
+    handle: buttonStyle
     instructions: null
     name: 'Stile del bottone'
     searchable: false

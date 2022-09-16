@@ -1,0 +1,62 @@
+childBlocks: null
+description: ''
+field: c3be3a6e-94d3-47a6-a914-53bfffed5d81 # Content Manager
+fieldLayouts:
+  90b258c7-eb9a-4a64-a8b9-17b4af81b47a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0867c770-0139-4bde-92e8-880080b164c8 # Pulsanti
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 64959565-936c-4248-84c1-798fd04737b6
+            userCondition: null
+            warning: null
+            width: 100
+        name: Contenuto
+        uid: 7d211344-9a70-464e-ba46-8a0fb741a9b2
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 07e415ff-0821-4631-88ba-2e370ee61018 # Orientamento degli elementi
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ca51b0a3-de3a-4c75-9d7d-e6c2dd03d492
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 7ef3b99d-c202-4d05-8817-3ef44df87b9f # Allineamento Orizzontale
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 10e0ed9b-e2ab-4a6a-beb0-7a2bf8ddc8b7
+            userCondition: null
+            warning: null
+            width: 25
+        name: Aspetto
+        uid: d6ce4129-90ea-4790-8606-2c230d46d530
+        userCondition: null
+group: 6b0a27c7-23fd-4d8f-a780-551ac5a52981 # Campi Base
+handle: blockButtons
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: Buttons
+sortOrder: 16
+topLevel: false

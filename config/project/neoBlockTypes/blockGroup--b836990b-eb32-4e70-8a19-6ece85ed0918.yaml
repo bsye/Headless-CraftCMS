@@ -1,0 +1,152 @@
+childBlocks:
+  - blockListNews
+  - blockTitleContent
+  - blockTextContent
+  - blockSpacer
+  - blockImage
+  - blockIcon
+  - blockSeparator
+  - blockVideo
+  - blockButtons
+  - blockCard
+  - blockEmbed
+  - blockGallery
+description: ''
+field: c3be3a6e-94d3-47a6-a914-53bfffed5d81 # Content Manager
+fieldLayouts:
+  21f9202b-9b6c-4e19-8583-c75635794dec:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: f5bca9ff-effe-471d-99cf-ade304c4ccd2 # Altezza del blocco
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d618bee0-9436-478f-915b-15b3b3e26d38
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 7ef3b99d-c202-4d05-8817-3ef44df87b9f # Allineamento Orizzontale
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c3ea3898-4464-40f6-8cfa-eff6fb0a7809
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: a0c0ef16-7653-47fd-9061-ecdafe6d430f # Allineamento Verticale
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c666be74-21b6-4e0a-a36e-8c2e2e604574
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 24178ca3-7874-454a-884e-18edba9a37f4 # Nascondi da
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5d8a6d56-41ea-4f93-afe7-2720e3f71498
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: bad8cf3d-1309-492c-b495-e2b21b37764f # Larghezza contenuto 
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dc4d96d2-36fc-4c02-a4f1-67a3a3f125c0
+            userCondition: null
+            warning: null
+            width: 25
+        name: Configurazioni
+        uid: 5f5b8b96-19cb-4624-bb85-8d10e469518d
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6f41b439-cb99-4e0f-8149-758e632633a1 # Background Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 06646e61-5972-4f89-812b-8ed2550be376
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 3b8a0247-0428-4d77-b26f-33fe4528d5ab # Colore del testo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f09260dd-43a4-411a-adf0-00b7d5e41fab
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: bb6a5f43-5774-4c2a-916b-74169652fd12 # Colore di background
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 65192657-2005-4b7a-98db-7b4490aa532c
+            userCondition: null
+            warning: null
+            width: 25
+        name: Stile
+        uid: 1ac2f02d-8e0d-4830-a9cf-84eef0440bd9
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6677968f-f800-4f1b-b442-9eb3030ec503 # Preset colori
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9c7decfd-f3d5-4107-aa82-448dacf8538b
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Preset Colori'
+        uid: 720743a6-eca2-45c4-9c2d-18645d8d97de
+        userCondition: null
+group: 3b36f1fb-0a72-4253-92dc-fbb743346705 # Campi Layout
+handle: blockGroup
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: Gruppo
+sortOrder: 3
+topLevel: true

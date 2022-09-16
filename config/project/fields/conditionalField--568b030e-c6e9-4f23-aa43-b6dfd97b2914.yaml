@@ -1,0 +1,14 @@
+columnSuffix: vflwsjrn
+contentColumnType: boolean
+fieldGroup: cc5cc4b1-3070-415f-a2e3-921644b96e01 # Campi opzione
+handle: conditionalField
+instructions: null
+name: 'Campo condizionale'
+searchable: false
+settings:
+  default: false
+  offLabel: 'No'
+  onLabel: Sì
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Lightswitch

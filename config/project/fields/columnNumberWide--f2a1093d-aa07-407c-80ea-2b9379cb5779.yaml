@@ -1,0 +1,67 @@
+columnSuffix: fmfwoemd
+contentColumnType: string
+fieldGroup: cc5cc4b1-3070-415f-a2e3-921644b96e01 # Campi opzione
+handle: columnNumberWide
+instructions: null
+name: 'Numero di colonne Wide'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - '1 colonna'
+        -
+          - value
+          - wide-grid-1
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '2 colonne'
+        -
+          - value
+          - wide-grid-2
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '3 colonne'
+        -
+          - value
+          - wide-grid-3
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '4 colonne'
+        -
+          - value
+          - wide-grid-4
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Auto
+        -
+          - value
+          - wide-grid-auto
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Dropdown

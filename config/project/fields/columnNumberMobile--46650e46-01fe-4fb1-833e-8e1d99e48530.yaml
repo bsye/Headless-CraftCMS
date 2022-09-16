@@ -1,0 +1,67 @@
+columnSuffix: cxnhalsf
+contentColumnType: string
+fieldGroup: cc5cc4b1-3070-415f-a2e3-921644b96e01 # Campi opzione
+handle: columnNumberMobile
+instructions: null
+name: 'Numero di colonne Mobile'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - '1 Colonna'
+        -
+          - value
+          - mobile-grid-1
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - '2 Colonne'
+        -
+          - value
+          - mobile-grid-2
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '3 Colonne'
+        -
+          - value
+          - mobile-grid-3
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '4 Colonne'
+        -
+          - value
+          - mobile-grid-4
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Auto
+        -
+          - value
+          - mobile-grid-auto
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Dropdown

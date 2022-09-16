@@ -1,0 +1,67 @@
+columnSuffix: krfzprfr
+contentColumnType: string
+fieldGroup: cc5cc4b1-3070-415f-a2e3-921644b96e01 # Campi opzione
+handle: columnNumberTablet
+instructions: null
+name: 'Numero di colonne Tablet'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - '1 Colonna'
+        -
+          - value
+          - tablet-grid-1
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '2 Colonne'
+        -
+          - value
+          - tablet-grid-2
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - '3 Colonne'
+        -
+          - value
+          - tablet-grid-3
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '4 Colonne'
+        -
+          - value
+          - tablet-grid-4
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Auto
+        -
+          - value
+          - tablet-grid-auto
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Dropdown

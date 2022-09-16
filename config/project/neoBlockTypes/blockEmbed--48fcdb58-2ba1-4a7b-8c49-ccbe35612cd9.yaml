@@ -1,0 +1,32 @@
+childBlocks: null
+description: ''
+field: c3be3a6e-94d3-47a6-a914-53bfffed5d81 # Content Manager
+fieldLayouts:
+  72df7d70-eb0a-48af-b918-2026ef8e1691:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 58214e02-1bee-4655-8760-28aaa4ebbd27 # Embed
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: caac602a-bc07-4016-8c5b-57e197862cc7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Contenuto
+        uid: cea0a205-3ee3-4a88-b9df-0673906a8882
+        userCondition: null
+group: 6b0a27c7-23fd-4d8f-a780-551ac5a52981 # Campi Base
+handle: blockEmbed
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: Embed
+sortOrder: 18
+topLevel: false
