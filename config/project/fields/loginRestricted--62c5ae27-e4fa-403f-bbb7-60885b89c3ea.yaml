@@ -1,0 +1,14 @@
+columnSuffix: fwjmrwkx
+contentColumnType: boolean
+fieldGroup: cc5cc4b1-3070-415f-a2e3-921644b96e01 # Campi opzione
+handle: loginRestricted
+instructions: null
+name: 'Rendere visibile solo agli utenti loggati?'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Lightswitch

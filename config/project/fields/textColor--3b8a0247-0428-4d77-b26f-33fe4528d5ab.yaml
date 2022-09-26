@@ -1,0 +1,12 @@
+columnSuffix: yfiqtmur
+contentColumnType: string(7)
+fieldGroup: cc5cc4b1-3070-415f-a2e3-921644b96e01 # Campi opzione
+handle: textColor
+instructions: null
+name: 'Colore del testo'
+searchable: false
+settings:
+  defaultColor: '#1c292c'
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Color

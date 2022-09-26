@@ -1,0 +1,81 @@
+childBlocks: null
+description: ''
+field: c3be3a6e-94d3-47a6-a914-53bfffed5d81 # Content Manager
+fieldLayouts:
+  acd03e5a-bac1-4210-8f09-3c8f6dbe0b57:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ca808102-3dd3-4670-8725-29e67e3b7580 # Dimensione del testo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bf6c4ec2-37c1-44c7-9596-520c34093d08
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 3b8a0247-0428-4d77-b26f-33fe4528d5ab # Colore del testo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e3f2df34-2519-4ce7-9b04-33c10c802cb4
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 43d28f5a-3663-453a-8332-5fa3d0accc7a # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 328b39de-d740-4a8c-9a7a-9a8aa6170b8a
+            userCondition: null
+            warning: null
+            width: 75
+        name: Contenuto
+        uid: 464299af-0645-435a-9226-8b78eea06c46
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6677968f-f800-4f1b-b442-9eb3030ec503 # Preset colori
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fc5242d3-e7d1-4c20-baac-c63ae1eecc26
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            style: tip
+            tip: "Colore Principale Scuro: #1C292C\r\n\r\nColore Principale Chiaro: #F2E9DC\r\n\r\n\r\nColore Arancione Card: #CE894F\r\n\r\nColore Verde Card: #57704E\r\n\r\nColore Blu Card: #4E6F70\r\n\r\nColore Marrone Card: #93765A\r\n\r\nColore Rosso Card: #91404E"
+            type: craft\fieldlayoutelements\Tip
+            uid: 0b09a6cc-cd08-4d81-97a9-d9e81170a227
+            userCondition: null
+        name: 'Preset Colori'
+        uid: 3e3a6c7e-6ddb-41a1-8590-d651cf27a7ca
+        userCondition: null
+group: 6b0a27c7-23fd-4d8f-a780-551ac5a52981 # Campi Base
+handle: blockTitleContent
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: Title
+sortOrder: 9
+topLevel: false

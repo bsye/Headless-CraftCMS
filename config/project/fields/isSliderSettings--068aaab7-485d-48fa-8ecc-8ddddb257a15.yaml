@@ -1,0 +1,14 @@
+columnSuffix: uptrsact
+contentColumnType: boolean
+fieldGroup: 72716926-fc36-4d07-a273-2c29a2eb8287 # Campi aggiuntivi
+handle: isSliderSettings
+instructions: null
+name: 'Visualizza come slider'
+searchable: false
+settings:
+  default: false
+  offLabel: 'No'
+  onLabel: Sì
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Lightswitch

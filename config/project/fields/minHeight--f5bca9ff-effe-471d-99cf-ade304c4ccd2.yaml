@@ -1,0 +1,45 @@
+columnSuffix: ncqixfdo
+contentColumnType: string
+fieldGroup: cc5cc4b1-3070-415f-a2e3-921644b96e01 # Campi opzione
+handle: minHeight
+instructions: null
+name: 'Altezza del blocco'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Altezza schermo'
+        -
+          - value
+          - height-screen
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Altezza media'
+        -
+          - value
+          - height-medium
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Altezza auto'
+        -
+          - value
+          - height-auto
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\RadioButtons

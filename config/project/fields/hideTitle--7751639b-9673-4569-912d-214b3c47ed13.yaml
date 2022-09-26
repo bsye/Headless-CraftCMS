@@ -1,0 +1,14 @@
+columnSuffix: cqlpaucl
+contentColumnType: boolean
+fieldGroup: cc5cc4b1-3070-415f-a2e3-921644b96e01 # Campi opzione
+handle: hideTitle
+instructions: null
+name: 'Nascondi il titolo della pagina'
+searchable: false
+settings:
+  default: false
+  offLabel: 'No'
+  onLabel: Sì
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Lightswitch
