@@ -1,0 +1,111 @@
+columnSuffix: hluyzzmt
+contentColumnType: string
+fieldGroup: cc5cc4b1-3070-415f-a2e3-921644b96e01 # Campi opzione
+handle: contentWidth
+instructions: 'Valori espressi in PX'
+name: 'Larghezza contenuto '
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Larghezza Container - 1536'
+        -
+          - value
+          - container
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'XS - 380'
+        -
+          - value
+          - max-width-xs
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'SM - 500'
+        -
+          - value
+          - max-width-sm
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'MD - 640'
+        -
+          - value
+          - max-width-md
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'LG - 800'
+        -
+          - value
+          - max-width-lg
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'XL - 1024'
+        -
+          - value
+          - max-width-xl
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '2XL - 1280'
+        -
+          - value
+          - max-width-2xl
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '3XL - 1440'
+        -
+          - value
+          - max-width-3xl
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Full Width'
+        -
+          - value
+          - max-width-full
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Dropdown

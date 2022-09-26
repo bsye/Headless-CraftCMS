@@ -1,0 +1,12 @@
+columnSuffix: eltasikd
+contentColumnType: string(7)
+fieldGroup: cc5cc4b1-3070-415f-a2e3-921644b96e01 # Campi opzione
+handle: backgroundColor
+instructions: null
+name: 'Colore di background'
+searchable: false
+settings:
+  defaultColor: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Color

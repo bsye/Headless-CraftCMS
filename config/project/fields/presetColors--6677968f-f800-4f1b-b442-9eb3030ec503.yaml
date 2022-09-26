@@ -1,0 +1,13 @@
+columnSuffix: bzbwoaiv
+contentColumnType: string
+fieldGroup: cc5cc4b1-3070-415f-a2e3-921644b96e01 # Campi opzione
+handle: presetColors
+instructions: "Colore Principale Scuro: #1C292C\r\nColore Principale Chiaro: #F2E9DC\r\n\r\nColore Arancione Card: #CE894F\r\nColore Verde Card: #57704E\r\nColore Blu Card: #4E6F70\r\nColore Marrone Card: #93765A\r\nColore Rosso Card: #91404E "
+name: 'Preset colori'
+searchable: false
+settings:
+  columnType: string
+  template: ' '
+translationKeyFormat: null
+translationMethod: none
+type: codemonauts\readonly\fields\ReadonlyField

@@ -1,0 +1,44 @@
+childBlocks: null
+description: ''
+field: c3be3a6e-94d3-47a6-a914-53bfffed5d81 # Content Manager
+fieldLayouts:
+  15c377d8-fe89-4756-8585-5c6532c7d4a4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3bef3075-cca8-43a2-a22b-b19698be9c3c # Spacer
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c79ebb7c-a9a9-4274-9c5e-40d1c371ca72
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 0336f2f0-e28d-445a-9c61-d7c55691bdf4 # Spacer Mobile
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e862544a-b62b-4ed0-bf6f-fff96776faf6
+            userCondition: null
+            warning: null
+            width: 25
+        name: Contenuto
+        uid: 5884880a-c327-4074-bdc6-6d261b5583de
+        userCondition: null
+group: 6b0a27c7-23fd-4d8f-a780-551ac5a52981 # Campi Base
+handle: blockSpacer
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: Spacer
+sortOrder: 11
+topLevel: false
