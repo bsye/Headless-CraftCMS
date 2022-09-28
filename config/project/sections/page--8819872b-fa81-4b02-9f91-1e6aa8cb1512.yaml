@@ -20,13 +20,13 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: null
-    uriFormat: '{slug}'
+    uriFormat: '{% if level == 1 %}{slug}{% else %}{parent.uri}/{slug}{% endif %}'
   438f0b6e-6006-4026-93ab-4fffd2f8344c: # Website IT
     enabledByDefault: true
     hasUrls: true
     template: null
-    uriFormat: '{slug}'
+    uriFormat: '{% if level == 1 %}{slug}{% else %}{parent.uri}/{slug}{% endif %}'
 structure:
-  maxLevels: null
+  maxLevels: 2
   uid: 4654d99c-b1ec-4c5d-a74e-072e7f43719f
 type: structure

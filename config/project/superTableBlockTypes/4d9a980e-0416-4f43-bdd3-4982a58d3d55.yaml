@@ -13,7 +13,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 34b05d46-3cdf-4afd-9829-65dd7672d860
+            uid: 15a04dd5-aa2b-4771-a1db-47b469665284
             userCondition: null
             warning: null
             width: 100
@@ -25,7 +25,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 1a75c953-f9ff-4fd7-afda-951f2508cd0e
+            uid: 9558aaa3-fea5-45a3-a94b-ffe73f38bd65
             userCondition: null
             warning: null
             width: 100
@@ -110,10 +110,10 @@ fields:
           __assoc__:
             -
               - label
-              - Standard
+              - 'Nero pieno'
             -
               - value
-              - standard
+              - fullBlack
             -
               - default
               - ''
@@ -121,10 +121,32 @@ fields:
           __assoc__:
             -
               - label
-              - invertito
+              - 'Bianco pieno'
             -
               - value
-              - inverse
+              - fullWhite
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Nero bordato'
+            -
+              - value
+              - borderedBlack
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Bianco bordato'
+            -
+              - value
+              - borderedWhite
             -
               - default
               - ''
